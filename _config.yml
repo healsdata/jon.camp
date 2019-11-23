@@ -22,6 +22,7 @@ url: "https://jon.camp" # the base hostname & protocol for your site, e.g. http:
 twitter_username: healsdata
 permalink: /:year/:month/:title
 analytics: UA-143768420-2
+destination: bell/
 
 # Author Settings
 author: Jonathan Campbell
