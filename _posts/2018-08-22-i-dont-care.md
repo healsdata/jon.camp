@@ -1,6 +1,6 @@
 ---
 id: 84
-title: 'I Don&#8217;t Care'
+title: 'The Meaning Behind &#8220;I Don&#8217;t Care&#8221;'
 date: 2018-08-22T07:57:17-05:00
 author: Jon
 layout: post
