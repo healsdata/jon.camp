@@ -1169,8 +1169,17 @@ footer .copyright {
 }
 
 .post .post-content .post-date,
-.post .post-content .post-words {
+.post .post-content .post-words,
+.post .post-content .post-more {
   font-size: 12px;
+}
+
+.post .post-content .post-more a {
+  color: #a0a0a0;
+}
+
+.post .post-content .post-more a::after {
+  content: ' >';
 }
 
 .post .post-content .post-title {
