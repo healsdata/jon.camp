@@ -3,6 +3,7 @@ title: 'Best Passwords for Trivia Murder Party'
 date: 2020-06-08T09:03:59-05:00
 author: Jon
 layout: post
+permalink: /2020/06/trivia-murder-party-password/
 categories:
   - password
   - learning
