@@ -8,7 +8,7 @@ categories:
   - password
   - learning
 ---
-*This is a follow-up to my post on finding the [best passwords for Trivia Murder Party](/2020/06/trivia-murder-party-password/). See that post for the rules of Password in Jackbox's Trivia Murder Party 2 and more background information.*
+*This is a follow-up to my post on finding the [best passwords for Trivia Murder Party](/bell/2020/06/trivia-murder-party-password/). See that post for the rules of Password in Jackbox's Trivia Murder Party 2 and more background information.*
 
 The actual best way to crack the password in game would be an interactive tool that immediate surfaces the best next word to try based on the previous results. If you enter *cost* and learn the last letter is *T* and the first letter isn't *C*, then there's no reason to try *coin*. But that seems a bit too much like cheating.
 
