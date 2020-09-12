@@ -1289,6 +1289,11 @@ a.newer-posts:hover {
   font-size: 10px;
 }
 
+.image figcaption {
+  font-style: italic;
+  max-width: 600px;
+}
+
 .page-cover-image .page-image {
   width: 100%;
   height: 100%;
