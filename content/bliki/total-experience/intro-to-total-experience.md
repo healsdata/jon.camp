@@ -1,6 +1,7 @@
 ---
 title: 'Intro to Total Experience (TX)'
 date: 2021-07-13T13:03:59-05:00
+summary: "A strategy that connects customer, employee and user experience disciplines"
 ---
 
 [Gartner Identifies the Top Strategic Technology Trends for 2021](https://www.gartner.com/en/newsroom/press-releases/2020-10-19-gartner-identifies-the-top-strategic-technology-trends-for-2021):
