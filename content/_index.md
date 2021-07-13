@@ -6,7 +6,7 @@ layout: post
 
 {{< rawhtml >}}
 
-<img src="/images/headshot.jpg" class="headshot" style="float: right;">
+<img src="/images/headshot.jpg" class="headshot d-none d-lg-inline" style="float: right;">
 
 {{< /rawhtml >}}
 

@@ -51,6 +51,15 @@ dd {
   font-weight: bold;
 }
 
+.sub-footer .sub-footer-inner ul li {
+  display: inline-block !important;
+  margin-left: 10px !important;
+}
+
 .docs-menu ul {
   margin-bottom: 25px !important;
+}
+
+.side-menu {
+  width: 100%;
 }

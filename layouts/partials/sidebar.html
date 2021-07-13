@@ -1,5 +1,5 @@
 {{$currentNode := .}}
-<div class="docs-menu">
+<div class="docs-menu d-none d-md-block">
   <h4>Writings</h4>
   <ul>
     {{ range .Site.Pages }} {{ if eq .Kind "section" }} {{ if ne .Title "Bliki"
@@ -48,3 +48,17 @@
     </li>
   </ul>
 </div>
+<select class="side-menu d-block d-md-none">
+  <option value="/">Home</option>
+  <optgroup label="Writings">
+    {{ range .Site.Pages }} {{ if eq .Kind "section" }} {{ if ne .Title "Bliki"
+    }}
+    <option value="{{ .Permalink }}">{{ .Title }}</option>
+    {{ end }} {{ end }} {{ end }}
+  </optgroup>
+  <optgroup label="Socials">
+    <option value="https://github.com/healsdata">GitHub</option>
+    <option value="https://twitter.com/healsdata">Twitter</option>
+    <option value="https://www.linkedin.com/in/jon-camp/">LinkedIn</option>
+  </optgroup>
+</select>
