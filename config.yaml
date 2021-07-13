@@ -12,3 +12,8 @@ params:
   logo:
     standard: images/jc.png
     mobile: images/jc.png
+
+publishDir: bell
+permalinks:
+  /: /:slug/
+  bliki: /:slug/

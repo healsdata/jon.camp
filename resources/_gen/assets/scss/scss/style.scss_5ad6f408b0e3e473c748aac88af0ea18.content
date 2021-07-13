@@ -3,6 +3,7 @@
 header h1.title {
   color: #007f7f; }
 
+dl,
 figcaption,
 .metadata {
   padding: 0.5em 10px;
@@ -21,6 +22,30 @@ hr.end-post {
   border: 1px solid #ccc;
   margin-bottom: 0;
   margin-top: 50px; }
+
+.headshot {
+  border-radius: 50%;
+  max-width: 100%;
+  border: 5px solid #007f7f;
+  margin-left: 15px;
+  margin-bottom: 15px; }
+
+dt,
+dd {
+  display: inline; }
+
+.sub-footer {
+  display: block;
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1.8; }
+
+.sub-footer a {
+  color: #333;
+  font-weight: bold; }
+
+.docs-menu ul {
+  margin-bottom: 25px !important; }
 
 *,
 *::before,

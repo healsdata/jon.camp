@@ -4,9 +4,8 @@ title: 'It comes down to asking "Why?"'
 date: 2018-12-17T09:03:59-05:00
 author: Jon
 layout: post
-oldlinks:
+aliases:
   - /2018/12/it-comes-down-to-asking-why/
-  - /?p=88
 ---
 
 It never ceases to amaze me how many things I've read, learned, and internalized that can be boiled down to simple, related concepts.

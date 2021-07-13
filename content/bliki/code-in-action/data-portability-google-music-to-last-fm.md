@@ -3,7 +3,7 @@ title: "Data Portability: Google Music to Last.Fm"
 date: 2020-09-12T09:03:59-05:00
 author: Jon
 layout: post
-oldlinks:
+aliases:
   - /2020/09/data-portability-google-music-to-last-fm/
 categories:
   - music

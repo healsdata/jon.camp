@@ -4,9 +4,8 @@ date: 2017-02-02T23:14:51-05:00
 lastmod: 2021-07-12T18:07:00-05:00
 author: Jon
 layout: post
-oldlinks:
+aliases:
   - /2017/02/what-books-have-you-gifted-the-most-often/
-  - /?p=74
 tags:
   - books
   - recommendations

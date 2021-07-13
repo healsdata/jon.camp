@@ -8,6 +8,7 @@
   {{.Content}}
 </div>
 
+{{ if eq .Section "bliki" }}
 <aside>
 <hr class="end-post">
 
@@ -25,6 +26,6 @@
 
 </div>
 </aside>
-
+{{ end }}
 </div>
 {{ end }}

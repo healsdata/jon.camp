@@ -5,7 +5,8 @@ date: 2017-01-19T23:23:04-05:00
 author: Jon
 layout: post
 guid: https://jon.camp/bell/?p=68
-permalink: /2017/01/too-hard-until-it-wasnt/
+aliases:
+  - /2017/01/too-hard-until-it-wasnt/
 categories:
   - Interviewing
 ---

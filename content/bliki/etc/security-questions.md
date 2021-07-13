@@ -3,9 +3,8 @@ title: Security Questions
 date: 2013-11-03T13:08:04-05:00
 author: Jon
 layout: post
-oldlinks:
+aliases:
   - /2013/11/security-questions-are-insecure/
-  - /?p=41
 tags:
   - keepass
   - password

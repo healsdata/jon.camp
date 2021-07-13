@@ -1,18 +1,20 @@
 ---
-title: 'Cracking the Password in Trivia Murder Party'
+title: "Cracking the Password in Trivia Murder Party"
 date: 2020-07-04T09:03:59-05:00
 author: Jon
 layout: post
-permalink: /2020/07/cracking-trivia-murder-party-password/
+aliases:
+  - /2020/07/cracking-trivia-murder-party-password/
 categories:
   - password
   - learning
 ---
-*This is a follow-up to my post on finding the [best passwords for Trivia Murder Party](/bell/2020/06/trivia-murder-party-password/). See that post for the rules of Password in Jackbox's Trivia Murder Party 2 and more background information.*
 
-The actual best way to crack the password in game would be an interactive tool that immediate surfaces the best next word to try based on the previous results. If you enter *cost* and learn the last letter is *T* and the first letter isn't *C*, then there's no reason to try *coin*. But that seems a bit too much like cheating.
+_This is a follow-up to my post on finding the [best passwords for Trivia Murder Party](/bell/2020/06/trivia-murder-party-password/). See that post for the rules of Password in Jackbox's Trivia Murder Party 2 and more background information._
 
-So instead, this strategy centers around a word list that will help you identify the vowels (including *y*) in the opponents' words. Once you've identified one or more vowels, you can start making logical guesses from there. Remember, R S T N L are still the most consonants, even when only considering four-letter words.
+The actual best way to crack the password in game would be an interactive tool that immediate surfaces the best next word to try based on the previous results. If you enter _cost_ and learn the last letter is _T_ and the first letter isn't _C_, then there's no reason to try _coin_. But that seems a bit too much like cheating.
+
+So instead, this strategy centers around a word list that will help you identify the vowels (including _y_) in the opponents' words. Once you've identified one or more vowels, you can start making logical guesses from there. Remember, R S T N L are still the most consonants, even when only considering four-letter words.
 
 Vowels are the obvious choice. In my word set, there's only five words that don't contain a vowel: brrr, cwms, pfft, psst, and tsks. There's also only one word entirely made of vowels, yoyo.
 
@@ -46,13 +48,13 @@ While those are all valid words, some of them are archaic, rare, or just weird. 
 
 ## buoy > lieu > mayo > yeti > iota > eyre > uric > onus
 
-These words all look pretty common to me, so next time I get a chance, I'm going to see if the game accepts *lieu* and *eyre*. If so, this is the shortest list of words to identify all the vowels. Additionally, *onus* will be helpful to find (or rule out) an *S* in the last spot, the most common letter placement from our study.
+These words all look pretty common to me, so next time I get a chance, I'm going to see if the game accepts _lieu_ and _eyre_. If so, this is the shortest list of words to identify all the vowels. Additionally, _onus_ will be helpful to find (or rule out) an _S_ in the last spot, the most common letter placement from our study.
 
 If eyre or lieu isn't accepted, here are other options I'll try:
 
-* **aloe > luau > oily > yeti > yoyo > eyes > your > ions > unit** - Is yoyo acceptable to the game?
-* **luau > mayo > idea > oboe > eely > yogi > unit > blue > sill > type** - One word longer, but everyone word seems very likely to be accepted.
+- **aloe > luau > oily > yeti > yoyo > eyes > your > ions > unit** - Is yoyo acceptable to the game?
+- **luau > mayo > idea > oboe > eely > yogi > unit > blue > sill > type** - One word longer, but everyone word seems very likely to be accepted.
 
 And remember, if you have't matched ANY letters by this point, try **brrr > cwms > pfft > psst > tsks**.
 
-I'm sure there's more optimization to be done here, taking into account the frequency of consonants in each position. Additionally, once you have the optimal word list, there must be an optimal order in which to enter them. For example, if you think your opponent has read my post on the best passwords to use, *eely*, *eyre* or *eyes* should be your first word to seek out that starting *E*.
+I'm sure there's more optimization to be done here, taking into account the frequency of consonants in each position. Additionally, once you have the optimal word list, there must be an optimal order in which to enter them. For example, if you think your opponent has read my post on the best passwords to use, _eely_, _eyre_ or _eyes_ should be your first word to seek out that starting _E_.
