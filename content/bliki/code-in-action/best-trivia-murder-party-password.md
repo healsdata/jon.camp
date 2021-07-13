@@ -5,6 +5,7 @@ author: Jon
 layout: post
 aliases:
   - /2020/06/best-trivia-murder-party-password/
+  - /2020/06/trivia-murder-party-password/
 categories:
   - password
   - learning
