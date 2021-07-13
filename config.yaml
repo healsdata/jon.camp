@@ -1,6 +1,6 @@
 languageCode: "en-us"
 title: "Jonathan Campbell"
-baseURL: "/bell/"
+baseURL: "/"
 relativeURLs: true
 canonifyURLs: true
 themesDir: "themes"
