@@ -53,7 +53,20 @@
   <optgroup label="Writings">
     {{ range .Site.Pages }} {{ if eq .Kind "section" }} {{ if ne .Title "Bliki"
     }}
-    <option value="{{ .Permalink }}">{{ .Title }}</option>
+    <option
+      value="{{ .Permalink }}"
+      {{
+      if
+      eq
+      .File.UniqueID
+      $currentNode.File.UniqueID
+      }}selected="selected"
+      {{
+      end
+      }}
+    >
+      {{ .Title }}
+    </option>
     {{ end }} {{ end }} {{ end }}
   </optgroup>
   <optgroup label="Socials">
