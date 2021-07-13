@@ -2,8 +2,7 @@
 <div class="docs-menu d-none d-md-block">
   <h4>Writings</h4>
   <ul>
-    {{ range .Site.Pages }} {{ if eq .Kind "section" }} {{ if ne .Title "Bliki"
-    }}
+    {{ range .Site.Pages }} {{ if eq .Kind "section" }} {{ if ne .Title "Bliki" }}
     <li>&raquo; <a href="{{ .Permalink }}">{{ .Title }}</a></li>
     {{ end }} {{ end }} {{ end }}
   </ul>
@@ -51,9 +50,13 @@
 <select class="side-menu d-block d-md-none">
   <option value="/">Home</option>
   <optgroup label="Writings">
-    {{ range .Site.Pages }} {{ if eq .Kind "section" }} {{ if ne .Title "Bliki"
-    }}
-    <option value="{{ .Permalink }}">{{ .Title }}</option>
+    {{ range .Site.Pages }} {{ if eq .Kind "section" }} {{ if ne .Title "Bliki" }}
+    <option
+      value="{{ .RelPermalink }}"
+      {{ if eq .File.UniqueID $currentNode.File.UniqueID }}selected="selected"{{ end }}
+    >
+      {{ .Title }}
+    </option>
     {{ end }} {{ end }} {{ end }}
   </optgroup>
   <optgroup label="Socials">
