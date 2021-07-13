@@ -1,0 +1,64 @@
+{{$currentNode := .}}
+<div class="docs-menu d-none d-md-block">
+  <h4>Writings</h4>
+  <ul>
+    {{ range .Site.Pages }} {{ if eq .Kind "section" }} {{ if ne .Title "Bliki"
+    }}
+    <li>&raquo; <a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }} {{ end }} {{ end }}
+  </ul>
+
+  <h4>Socials</h4>
+  <ul>
+    <li>
+      <a
+        href="https://github.com/healsdata"
+        target="_blank"
+        rel="noopener
+        noreferrer"
+        ><i class="fab fa-github"></i> GitHub</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://twitter.com/healsdata"
+        target="_blank"
+        rel="noopener
+        noreferrer"
+        ><i class="fab fa-twitter"></i> Twitter</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://www.linkedin.com/in/jon-camp/"
+        target="_blank"
+        rel="noopener
+        noreferrer"
+        ><i class="fab fa-linkedin-in"></i> LinkedIn</a
+      >
+    </li>
+    <li>
+      <a
+        href="mailto:jon@healsdata.com"
+        target="_blank"
+        rel="noopener
+        noreferrer"
+        ><i class="fas fa-at"></i> E-mail</a
+      >
+    </li>
+  </ul>
+</div>
+<select class="side-menu d-block d-md-none">
+  <option value="/">Home</option>
+  <optgroup label="Writings">
+    {{ range .Site.Pages }} {{ if eq .Kind "section" }} {{ if ne .Title "Bliki"
+    }}
+    <option value="{{ .Permalink }}">{{ .Title }}</option>
+    {{ end }} {{ end }} {{ end }}
+  </optgroup>
+  <optgroup label="Socials">
+    <option value="https://github.com/healsdata">GitHub</option>
+    <option value="https://twitter.com/healsdata">Twitter</option>
+    <option value="https://www.linkedin.com/in/jon-camp/">LinkedIn</option>
+  </optgroup>
+</select>

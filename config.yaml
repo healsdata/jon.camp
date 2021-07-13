@@ -1,0 +1,19 @@
+languageCode: "en-us"
+title: "Jonathan Campbell"
+baseURL: "/"
+relativeURLs: true
+canonifyURLs: true
+themesDir: "themes"
+theme: "hugo-whisper-theme"
+
+Section: "bliki"
+
+params:
+  logo:
+    standard: images/jc.png
+    mobile: images/jc.png
+
+publishDir: bell
+permalinks:
+  /: /:slug/
+  bliki: /:slug/
