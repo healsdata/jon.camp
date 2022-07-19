@@ -1,7 +1,7 @@
 ---
 title: "Recommended Books"
 date: 2017-02-02T23:14:51-05:00
-lastmod: 2021-07-12T18:07:00-05:00
+lastmod: 2022-07-17T18:07:00-05:00
 author: Jon
 layout: post
 aliases:
@@ -14,11 +14,22 @@ tags:
 
 ## Technology
 
+### Coding
+
 **_Clean Code_ by Robert C. Martin**
 
 At both my previous and current jobs, I've run book clubs that focused on this book. It has always led to great conversations around the various topics within. Even if the team doesn't necessarily agree with a particular recommendation in the book, the discussion itself is worth it. It is essential that everyone is on the same page when it comes to topics like meaningful names, comments, and error handling.
 
 > You are reading this book for two reasons. First, you are a programmer. Second, you want to be a better programmer. Good. We need better programmers.
+
+### DevOps
+
+**_The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win_ by Gene Kim, Kevin Behr, George Spafford**
+
+Unlike most other books in the technology space, this is a novelization that portrays the right and wrong way for IT, developers, and engineers to interact.
+It includes a wise figure who doles out pieces of advice, so there's definitely actionable takeaways, but it also serves as a humorous read.
+
+
 
 ## Leadership
 
@@ -39,4 +50,8 @@ Given the push for self-organizing teams in the world of Agile, I found the less
 
 **_His Majesty's Dragon_ by Naomi Novik**
 
-Naval dragons during the Napoleonic Wars. What else do you need to know?
+Naval dragons during the Napoleonic Wars.
+
+**_Foundryside_ by Robert Jackson Bennett**
+
+A cyberpunk book but in a fantasy setting.
