@@ -1,6 +1,6 @@
 ---
-title: 'Caffeine'
-date: 2022-07-17T18:35:00-05:00
+title: 'Caffeine - The Good, The Bad, The Withdraw'
+date: 2022-09-09T18:35:00-05:00
 summary: "A collection of facts, quotes, etc. about caffeine"
 ---
 
@@ -39,7 +39,24 @@ Clinically, caffeine may be involved in the precipitation, exacerbation or maint
 
 It is well-known that caffeine produces insomnia. It reduces slow-wave sleep in the early part of the sleep cycle and can reduce rapid eye movement (REM) sleep later in the cycle. Caffeine increases episodes of wakefulness, and high doses in the late evening can increase the time taken to fall asleep.
 
+## Withdraw
+
+Caffeine works by causing your brain to overproduce dopamine. Dopamine is made from L-Dopa, which is made from Tyrosine, which is made from Phenylalanine. Extended caffeine use uses up your stores of Tyrosine and Phenylalanine, so your brain reduces its dopamine production to conserve them. It then takes progressively more caffeine to force your brain to use its remaining amino acid stores to produce dopamine- meaning you consume more caffeine, let have less energy and feel terrible.  
+
+### Symptoms
+
+Headache, fatigue, decreased energy/activeness, decreased alertness, drowsiness, decreased contentedness, depressed mood, difficulty concentrating, irritability, and feeling foggy/not clearheaded.
+
+### Mitigation
+
+Tyrosine or Phenylalanine pills, 500 mg each.
+
+* For the first two days, take 1000 mg of your chosen supplement first thing in the morning, and another 1000 mg at lunch.
+* For the next two days, take 500 mg first thing in the morning, and another 500 mg at lunch.  
+* For two days after that, take 500 mg first thing in the morning only.
+
 ## See Also
 
 * [Neuropsychiatric effects of caffeine](https://www.cambridge.org/core/journals/advances-in-psychiatric-treatment/article/neuropsychiatric-effects-of-caffeine/7C884B2106D772F02DA114C1B75D4EBF)
 * [Drinking a strong coffee half an hour before exercising increases fat-burning, new study finds](https://canal.ugr.es/uncategorized/drinking-a-strong-coffee-half-an-hour-before-exercising-increases-fat-burning-new-study-finds/)
+* [How to cure a caffeine addiction in four days, without withdrawal symptoms](https://johnfawkes.com/how-to-cure-a-caffeine-addiction-in-four-days-without-withdrawal-symptoms/)
