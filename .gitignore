@@ -2,3 +2,4 @@ bell/
 themes/
 .vscode/
 *.orig
+.hugo_build.lock
