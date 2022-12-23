@@ -4,7 +4,7 @@ title: "Too Hard -- Until It Wasn't"
 date: 2017-01-19T23:23:04-05:00
 author: Jon
 layout: post
-guid: https://jon.camp/bell/?p=68
+guid: https://jon.camp/?p=68
 aliases:
   - /2017/01/too-hard-until-it-wasnt/
 categories:
@@ -25,4 +25,4 @@ Then someone completed it.
 
 Not only did they meet all the functional requirements, but they completed the "offline storage" technical piece in a way that it would be easy to refactor to use a database later. We hired them and they've quickly became a strong contributor to the team. They later asked what was the "trick" in the exercise because it seemed so simple.
 
-There's no trick. As [I've previously discussed](https://jon.camp/bell/2017/01/too-easy-until-it-wasnt/), some people have degrees or jobs in programming but simply can't.
+There's no trick. As [I've previously discussed](https://jon.camp/2017/01/too-easy-until-it-wasnt/), some people have degrees or jobs in programming but simply can't.

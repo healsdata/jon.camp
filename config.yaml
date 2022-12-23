@@ -1,6 +1,6 @@
 languageCode: "en-us"
 title: "Jonathan Campbell"
-baseURL: "/bell"
+baseURL: "/"
 relativeURLs: true
 canonifyURLs: true
 themesDir: "themes"
@@ -13,7 +13,7 @@ params:
     standard: images/jc.png
     mobile: images/jc.png
 
-publishDir: bell
+publishDir: public
 permalinks:
   /: /:slug/
   bliki: /:slug/

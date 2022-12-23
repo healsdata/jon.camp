@@ -4,7 +4,7 @@ title: "Too Easy -- Until It Wasn't"
 date: 2017-01-05T23:02:09-05:00
 author: Jon
 layout: post
-guid: https://jon.camp/bell/?p=65
+guid: https://jon.camp/?p=65
 aliases:
   - /2017/01/too-easy-until-it-wasnt/
 categories:
