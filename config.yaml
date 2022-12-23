@@ -17,3 +17,4 @@ publishDir: bell
 permalinks:
   /: /:slug/
   bliki: /:slug/
+
