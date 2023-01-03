@@ -63,3 +63,19 @@ dd {
 .side-menu {
   width: 100%;
 }
+
+.content {
+  code {
+    background: #2f4f4f !important;
+    color: #fffdd9;
+  }
+}
+
+.content table th { 
+  background: #2f4f4f;
+  color: #fffdd9;
+}
+
+.content table tr:nth-of-type(even) td {
+  background-color: #f9f9f9;
+}
