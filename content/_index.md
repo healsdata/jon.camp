@@ -10,14 +10,14 @@ layout: post
 
 {{< /rawhtml >}}
 
-# Hello & Welcome to my Bliki!
+## Hello & Welcome to my Bliki!
 
 I'm a technologist and leader who's been programming since I was twelve and
 using my technology chops to solve problems in the business world since 2000.
 Throughout my career, I've had the opportunity to work on, and manage, a number
 of awesome projects with scores of amazing engineers.
 
-## So why a bliki?
+### So why a bliki?
 
 {{< rawhtml >}}
 

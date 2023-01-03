@@ -34,17 +34,32 @@
           <div class="col-12 col-md-3 mb-3">
             <div class="sidebar">{{ partial "sidebar.html" . }}</div>
           </div>
-          <div class="col-12 col-md-9">
+          
+          <div class="col-12 col-md-9 content">
             {{ if .Content }} {{ .Content }} {{ end }} 
             
-            <h2>Most Recently Updated Articles</h2>
-            <ul>
-            {{ range first 5 (where
-            .Site.Pages.ByLastmod.Reverse "IsPage" true) }} 
-            <li>&raquo; <a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            <h3>Recently Updated Articles</h3>
             
-            {{ end }}
-            </ul>
+            <table>
+              <thead>
+                <tr>
+                  <th>Article</th>
+                  <th style="text-align: right;">Updated</th>
+                </tr>                
+              </thead>
+
+            <tbody>
+              {{ range first 5 (where
+              .Site.Pages.ByLastmod.Reverse "IsPage" true) }} 
+              <tr>
+                <td><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+                <td style="text-align: right;">{{ .Lastmod.Format "January 2, 2006" }}</td>
+              </tr>
+              {{ end }}
+            </tbody>
+            
+            </table>
+
             </div>
           </div>
         </div>
