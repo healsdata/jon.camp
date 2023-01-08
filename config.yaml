@@ -6,6 +6,10 @@ canonifyURLs: true
 themesDir: "themes"
 theme: "hugo-whisper-theme"
 
+author:
+  name: Jonathan Campbell
+copyright: This work is licensed under a Creative Commons Attribution 4.0 International license
+
 Section: "bliki"
 
 params:

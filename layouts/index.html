@@ -4,7 +4,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-      {{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}
+      {{ block "title" . }}
+        {{ if eq .Title .Site.Title }}
+          {{ .Title }}
+        {{ else }}
+          {{ .Title }} - {{ .Site.Title }}
+        {{ end }}
+      {{ end }}
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     {{ block "meta_tags" . }}{{end}}  {{ if .Site.IsServer }} {{ $style := resources.Get
@@ -22,6 +28,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">    
+    {{ with .OutputFormats.Get "rss" -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
   </head>
 
   <body class='page {{ block "body_classes" . }}{{ end }}'>
