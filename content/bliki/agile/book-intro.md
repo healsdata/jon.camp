@@ -1,6 +1,6 @@
 ---
 title: "Potential Agile Book Introduction"
-date: 2023-03-284T09:03:59-05:00
+date: 2023-03-28T09:03:59-05:00
 author: Jon
 layout: post
 slug: agile-book-intro
