@@ -1,9 +1,9 @@
 ---
-title: "On Technical Debt: Fix That Jawn"
+title: "[DRAFT] On Technical Debt: Fix That Jawn"
 date: 2023-07-08T09:03:59-05:00
 author: Jon
 layout: post
-draft: true
+slug: technical-debt
 ---
 
 *Content Warning: This post uses the [I-95 Bridge Collapse](https://whyy.org/series/i-95-bridge-collapse-philadelphia/) as a metaphor for technical debt and building software. The original incident resulted in the death of one driver and has since impacted the commutem stress levels, and work-life balance of many, many people. The real, meaningful impact of this incident should not to be minimized.*

@@ -12,10 +12,7 @@ layout: post
 
 ## Hello & Welcome to my Bliki!
 
-I'm a technologist and leader who's been programming since I was twelve and
-using my technology chops to solve problems in the business world since 2000.
-Throughout my career, I've had the opportunity to work on, and manage, a number
-of awesome projects with scores of amazing engineers.
+I'm a technologist and engineering leader who's been programming since I was twelve and have been using technology to solve problems in the business world since 2000. 
 
 ### So why a bliki?
 
@@ -29,10 +26,8 @@ of awesome projects with scores of amazing engineers.
 {{< /rawhtml >}}
 
 The most straightforward answer is that I'm bad at remembering to update a blog.
-Rather than feel sad that I haven't published a new article in X number of
+Rather than feel bad that I haven't published a new article in X number of
 months, this format allows me to share a handful of articles you may find
-interesting and update them why I learn something new.
+interesting and update them why I learn something new. 
 
-And honestly, you're probably here looking for one of my other links. In that
-case, this is just a simple landing page and you can find all my socials linked
-within.
+Additionally, I feel OK publishing a draft (marked as such) and hopefully returning later to finish it.

@@ -1,7 +1,6 @@
 languageCode: "en-us"
 title: "Jonathan Campbell"
-baseURL: "/"
-relativeURLs: true
+
 canonifyURLs: true
 themesDir: "themes"
 theme: "hugo-whisper-theme"
@@ -20,5 +19,5 @@ params:
 publishDir: public
 permalinks:
   /: /:slug/
-  bliki: /:slug/
+  bliki: /:sections[1:]/:slug/
 

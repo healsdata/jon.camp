@@ -1,10 +1,16 @@
 {{$currentNode := .}}
 <div class="docs-menu d-none d-md-block">
-  <h4>Writings</h4>
+  <h4>Bliki</h4>
   <ul>
     {{ range .Site.Pages }} {{ if eq .Kind "section" }} {{ if ne .Title "Bliki" }}
     <li>&raquo; <a href="{{ .Permalink }}">{{ .Title }}</a></li>
     {{ end }} {{ end }} {{ end }}
+    <li>
+      <a
+      href="/index.xml"
+      target="_blank"
+      ><i class="fa-solid fa-square-rss"></i> Feed</a>      
+    </li>
   </ul>
 
   <h4>Socials</h4>
@@ -46,7 +52,7 @@
 </div>
 <select class="side-menu d-block d-md-none">
   <option value="/">Home</option>
-  <optgroup label="Writings">
+  <optgroup label="Bliki">
     {{ range .Site.Pages }} {{ if eq .Kind "section" }} {{ if ne .Title "Bliki" }}
     <option
       value="{{ .RelPermalink }}"

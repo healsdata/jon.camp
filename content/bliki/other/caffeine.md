@@ -2,6 +2,7 @@
 title: 'Caffeine - The Good, The Bad, The Withdraw'
 date: 2022-09-09T18:35:00-05:00
 summary: "A collection of facts, quotes, etc. about caffeine"
+slug: "caffeine"
 ---
 
 > ... coffee sets the blood in motion and stimulates the muscles; it accelerates the digestive processes, chases away sleep, and gives us the capacity to engage a little longer in the exercise of our intellects.
