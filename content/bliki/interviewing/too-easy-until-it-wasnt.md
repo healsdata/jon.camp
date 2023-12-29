@@ -7,6 +7,7 @@ layout: post
 guid: https://jon.camp/?p=65
 aliases:
   - /2017/01/too-easy-until-it-wasnt/
+  - /too-easy-until-it-wasnt/
 categories:
   - Interviewing
 ---

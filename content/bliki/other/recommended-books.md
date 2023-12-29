@@ -6,6 +6,7 @@ author: Jon
 layout: post
 aliases:
   - /2017/02/what-books-have-you-gifted-the-most-often/
+  - /recommended-books/
 tags:
   - books
   - recommendations

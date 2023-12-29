@@ -5,6 +5,7 @@ author: Jon
 layout: post
 aliases:
   - /2013/11/security-questions-are-insecure/
+  - /security-questions/
 tags:
   - keepass
   - password

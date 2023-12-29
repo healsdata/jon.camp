@@ -6,6 +6,7 @@ author: Jon
 layout: post
 aliases:
   - /2018/12/it-comes-down-to-asking-why/
+  - /it-comes-down-to-asking-why/
 ---
 
 It never ceases to amaze me how many things I've read, learned, and internalized that can be boiled down to simple, related concepts.
