@@ -3,7 +3,6 @@ title: "Jonathan Campbell"
 subtitle: "Jonathan Campbell's Bliki -- Thoughts on Software Engineering & More"
 
 baseURL: "https://jon.camp"
-canonifyURLs: true
 themesDir: "themes"
 theme: "hugo-whisper-theme"
 
