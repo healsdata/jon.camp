@@ -1,0 +1,54 @@
+:root {
+  --fg-highlight: #007f7f;
+}
+
+body {
+  margin: auto;
+  max-width: 768px;
+}
+
+header {
+  border-bottom: 1px solid var(--fg);
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+a {
+  color: var(--fg-highlight);
+  text-decoration: none;
+}
+
+.headshot {
+  border-radius: 50%;
+  max-width: 100%;
+  border: 5px solid var(--fg-highlight);
+  margin-left: 15px;
+  margin-bottom: 15px;
+  filter: drop-shadow(5px 5px 10px var(--fg));
+}
+
+footer {
+  border-top: 1px solid var(--fg);
+  margin-top: 1rem;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+footer p {
+  text-align: left;
+  flex-direction: column;
+  flex: 1;
+}
+
+footer p:nth-of-type(2) {
+  text-align: right;
+}
+
+footer img {
+  height: 14px !important;
+  margin:0;
+}

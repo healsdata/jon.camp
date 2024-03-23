@@ -1,26 +1,23 @@
 languageCode: "en-us"
 title: "Jonathan Campbell"
-subtitle: "Jonathan Campbell's Bliki -- Thoughts on Software Engineering & More"
+subtitle: "Jonathan Campbell's Blog -- Thoughts on Software Engineering & More"
 
 baseURL: "https://jon.camp"
 themesDir: "themes"
-theme: "hugo-whisper-theme"
+theme: "wizard"
 
 params:
   contact:
     email: jon@healsdata.com
   author:
     name: Jonathan Campbell
-copyright: This work is licensed under a Creative Commons Attribution 4.0 International license
-
-Section: "bliki"
-
-params:
   logo:
     standard: images/jc.png
     mobile: images/jc.png
 
+copyright: This work is licensed under a Creative Commons Attribution 4.0 International license
+
 publishDir: public
 permalinks:
   /: /:slug/
-  bliki: /:sections[1:]/:slug/
+  blog: /:sections[1:]/:slug/

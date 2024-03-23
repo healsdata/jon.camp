@@ -10,16 +10,16 @@ layout: post
 
 {{< /rawhtml >}}
 
-## Hello & Welcome to my Bliki!
+## Hello & Welcome to my Blog!
 
 I'm a technologist and engineering leader who's been programming since I was twelve and have been using technology to solve problems in the business world since 2000. 
 
-### So why a bliki?
+### So why a blog?
 
 {{< rawhtml >}}
 
 <dl>
-    <dt>Bliki</dt>
+    <dt>Blog</dt>
     <dd>[ blik-ee ] a cross between a blog and a wiki</dd>
 </dl>
 
