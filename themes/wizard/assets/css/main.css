@@ -1,5 +1,6 @@
 :root {
   --fg-highlight: #007f7f;
+  --bg-highlight: #007f7f88;
 }
 
 body {
@@ -13,18 +14,45 @@ header {
   margin-top: 0;
 }
 
+nav a {
+  white-space: nowrap;
+  text-wrap: avoid;
+}
+
 a {
   color: var(--fg-highlight);
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+
 .headshot {
   border-radius: 50%;
   max-width: 100%;
   border: 5px solid var(--fg-highlight);
-  margin-left: 15px;
+  margin-left: 25px;
   margin-bottom: 15px;
   filter: drop-shadow(5px 5px 10px var(--fg));
+  float: right;
+}
+
+@media (max-width: 768px) {
+  .headshot {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .full-form {
+    display: none;
+  }
 }
 
 footer {
@@ -44,11 +72,28 @@ footer p {
   flex: 1;
 }
 
-footer p:nth-of-type(2) {
-  text-align: right;
-}
-
 footer img {
   height: 14px !important;
   margin:0;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.last-updated {
+  width: 100%;
+}
+
+.last-updated tr:nth-of-type(2n) {
+  background-color: var(--bg-highlight);
+}
+
+.last-updated  a {
+  color: var(--fg);
+}
+
+.last-updated tr td, .last-updated tr th {
+  padding-left: 10px;
+  padding-right: 10px;
 }

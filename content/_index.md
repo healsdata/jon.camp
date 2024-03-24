@@ -6,28 +6,18 @@ layout: post
 
 {{< rawhtml >}}
 
-<img src="/images/headshot.jpg" class="headshot d-none d-lg-inline" style="float: right;">
+
+<img src="/images/headshot.jpg" class="headshot">
 
 {{< /rawhtml >}}
 
-## Hello & Welcome to my Blog!
+# Hello & Welcome!
 
 I'm a technologist and engineering leader who's been programming since I was twelve and have been using technology to solve problems in the business world since 2000. 
 
-### So why a blog?
+## About that blog...
 
-{{< rawhtml >}}
+I'm bad at remembering to finish blog posts. I have a lot of ideas that never get past the first draft stage. 
+I've decided to share drafts here, marked with *[DRAFT]* in the title until they're done. 
 
-<dl>
-    <dt>Blog</dt>
-    <dd>[ blik-ee ] a cross between a blog and a wiki</dd>
-</dl>
-
-{{< /rawhtml >}}
-
-The most straightforward answer is that I'm bad at remembering to update a blog.
-Rather than feel bad that I haven't published a new article in X number of
-months, this format allows me to share a handful of articles you may find
-interesting and update them why I learn something new. 
-
-Additionally, I feel OK publishing a draft (marked as such) and hopefully returning later to finish it.
+This allows me to share things I currently find interesting and update them why I learn something new. 

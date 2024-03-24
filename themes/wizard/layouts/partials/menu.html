@@ -4,7 +4,7 @@ Renders a menu for the given menu ID.
 @context {page} page The current page.
 @context {string} menuID The menu ID.
 
-@example: {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+@example: {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
 */}}
 
 {{- $page := .page }}
@@ -13,7 +13,27 @@ Renders a menu for the given menu ID.
 {{- with index site.Menus $menuID }}
   <nav>
     <ul>
-      {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+      <li>
+        <a href="/"><i class="fa-solid fa-house"></i> Home</a>
+      </li>
+      <li>
+        <a href="/blog"><i class="fa-solid fa-square-rss" aria-hidden="true"></i> Blog</a>
+      </li>
+      <li>
+        <a href="https://github.com/healsdata" target="_blank" rel="noopener
+              noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+      </li>
+      <li>
+        <a href="https://fosstodon.org/@healsdata" target="_blank" rel="noopener noreferrer me"><i class="fab fa-mastodon" aria-hidden="true"></i> Mastodon</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/jon-camp/" target="_blank" rel="noopener
+              noreferrer"><i class="fab fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a>
+      </li>
+      <li>
+        <a href="mailto:jon@healsdata.com" target="_blank" rel="noopener
+              noreferrer"><i class="fas fa-at" aria-hidden="true"></i> Contact</a>
+      </li>
     </ul>
   </nav>
 {{- end }}
