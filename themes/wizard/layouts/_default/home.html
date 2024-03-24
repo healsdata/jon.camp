@@ -9,10 +9,10 @@
         <th class="align-right">Modified</th>
       </tr>
     </thead>
-  {{ range first 5 site.RegularPages }}
+  {{ range sort site.RegularPages ".Lastmod" "desc" | first 5 }}
     <tr>
       <td><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></td>
-      <td class="align-right">{{ time.Format "January 2, 2006" .Date }}</td>
+      <td class="align-right">{{ time.Format "January 2, 2006" .Lastmod }}</td>
     </tr>
   {{ end }}
   </table>
