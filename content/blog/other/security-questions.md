@@ -6,10 +6,7 @@ layout: post
 aliases:
   - /2013/11/security-questions-are-insecure/
   - /security-questions/
-tags:
-  - keepass
-  - password
-  - security
+summary: "Don't use real answers when a website asks you to set up security questions. They're as sensitive as passwords; store them in your password manager!"
 ---
 
 I'm sure it is an example of the [Baader-Meinhof Phenomenon](http://www.damninteresting.com/the-baader-meinhof-phenomenon/), but I've seen quite a few comments lately about people having their eBay, Facebook, or other online account "hacked" by their parents. One such example came from this month's issue of [Psychology Today](http://www.psychologytoday.com/blog/women-and-happiness/201303/what-do-we-owe-dying-parent):

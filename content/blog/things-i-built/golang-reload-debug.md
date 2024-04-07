@@ -1,6 +1,6 @@
 ---
 title: "Go: Live Reload & Debugging in Docker"
-date: 2024-04-06T09:03:59-05:00
+date: 2024-04-07T17:18:00-04:00
 author: Jon
 layout: post
 summary: An example of using Air (for live reload), Delve (for debugging), and Cobra (for CLI commands) together in Docker for local development.

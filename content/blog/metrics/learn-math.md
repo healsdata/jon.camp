@@ -4,9 +4,16 @@ date: 2023-11-12T09:03:59-05:00
 author: Jon
 layout: post
 slug: learn-math
+summary: "A basic understanding of statistics gives you a great sniff test for when people are deceiving you with numbers."
 ---
 
-*Content Warning: This post uses statistics about pitbull attacks for examples. I'm not here to offer an opinion on the underlying issue and am just using interesting statistics from "both sides" to illustrate my point.*
+{{< rawhtml >}}
+<blockquote>
+<small>
+Content Warning: This post uses statistics about pitbull attacks for examples. I'm not here to offer an opinion on the underlying issue and am just using interesting statistics from "both sides" to illustrate my point.*
+</small>
+</blockquote>
+{{< /rawhtml >}}
 
 > Learn math. Math is how you know when they're lying to you.
 >

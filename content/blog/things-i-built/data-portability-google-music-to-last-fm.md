@@ -8,6 +8,8 @@ aliases:
 categories:
   - music
   - learning
+summary: 'When Google announced earlier that Play Music was going away, I started considering other services with music discovery,
+  After finding Last.FM, I cobbled together a few scripts to move my listening history from Google to the new service.'
 ---
 
 I've been a subscriber to Google Play Music / YouTube Premium since it launched in 2016. I watch a lot of YouTube videos on my TV with Chromecast -- YouTube Premium makes that ad-free. Combined with a music streaming service for the whole family and its definitely worth the $15 / month.
@@ -16,7 +18,7 @@ In that time, I've had access to music both through the Google Play Music and Yo
 
 {{< rawhtml >}}
 
-<figure style="max-width: 100%">
+<figure>
   <a href="/images/content/data-portability/usher-radio.png"><img aria-describedby="caption-42" src="/images/content/data-portability/usher-radio.png" alt="Example YouTube Music radio seeded by Usher, with Usher appearing 4 times in the first 10 tracks, including #1 and #2.." /></a>
   
   <figcaption id="caption-42">
@@ -33,11 +35,11 @@ In my search for a Free/Freemium music discovery tool, I happened upon a Reddit 
 >
 > -- Urban Dictionary
 
-Last.fm has an Android app and it will log anything you play with YouTube Music. I listed to a few songs, got some recommendations from Last.fm. Huzzah, so far so good. But I really didn't want to start from scratch. Theoretically, the Google Play Music algorithm had four years of my music listening history to power new recommendations. All of that would be lost to the aether.
+Last.fm has an Android app, and it will log anything you play with YouTube Music. I listed to a few songs, got some recommendations from Last.fm. Huzzah, so far so good. But I really didn't want to start from scratch. Theoretically, the Google Play Music algorithm had four years of my music listening history to power new recommendations. All of that would be lost to the aether.
 
 Again, a Reddit post to the rescue. It was recommended to combine [Google Takeout](https://takeout.google.com/settings/takeout), Google's data portability service, with [Last.fm-Scrubbler-WPF](https://github.com/coczero/Last.fm-Scrubbler-WPF), an open source tool that lets you manually scrobble songs. The tool includes a CSV importer so, in theory, it would be as simple as mapping the Google Takeout data to CSV and then running the importer.
 
-Google Takeout's data for Google Play Music is really well structured. For each track you've ever listened to, you get a CSV file with Title, Album, Artist and Play Count. It was very simple enough to map this data to Scrubbler's format, duplicating each line once for each play count.
+Google Takeout's data for Google Play Music is really well-structured. For each track you've ever listened to, you get a CSV file with Title, Album, Artist and Play Count. It was very simple enough to map this data to Scrubbler's format, duplicating each line once for each play count.
 
 YouTube Music Takeout data was a bit more of a pain. You get a single `watch-history.json` file that combines your YouTube Music and YouTube history. The data only consistently provides the video's title & URL. Sometimes you get a subtitle field which can contain the YouTube channel for the video or the search term you used in YouTube Music. So to import the YouTube Music data to Last.fm, I had to leverage the YouTube metadata API to get the full information for each video by URL. Then I was able to map it to the appropriate CSV format for Scrubbler.
 
@@ -45,7 +47,7 @@ All in all, this took an evening of hacky coding and a few days of importing due
 
 {{< rawhtml >}}
 
-<figure style="max-width: 100%">
+<figure >
   <a href="/images/content/data-portability/lastfm-recommendations.png"><img aria-describedby="caption-43" src="/images/content/data-portability/lastfm-recommendations.png" alt="A list of song recommendations from Last.FM" /></a>
   
   <figcaption id="caption-43">

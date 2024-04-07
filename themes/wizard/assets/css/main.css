@@ -97,3 +97,9 @@ footer img {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+small,
+figcaption {
+  font-size: 80%;
+  font-style: italic;
+}

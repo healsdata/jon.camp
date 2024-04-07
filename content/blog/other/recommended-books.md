@@ -7,10 +7,7 @@ layout: post
 aliases:
   - /2017/02/what-books-have-you-gifted-the-most-often/
   - /recommended-books/
-tags:
-  - books
-  - recommendations
-  - reading
+summary: "Books that I've enjoyed and recommended/gifted to others."
 ---
 
 ## Software Development

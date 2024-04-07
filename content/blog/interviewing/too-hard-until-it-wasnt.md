@@ -1,5 +1,4 @@
 ---
-id: 68
 title: "Too Hard -- Until It Wasn't"
 date: 2017-01-19T23:23:04-05:00
 author: Jon
@@ -10,6 +9,9 @@ aliases:
   - /too-hard-until-it-wasnt/
 categories:
   - Interviewing
+summary: "When interviewing, it can seem like you're being too hard on candidates when many fail to reach the bar. 
+  You may find yourself considering lowering the bar. But more often than not, a candidate will come along and leap over the bar.
+  Sometimes, the bar is just right, you just haven't found the right candidate yet."
 ---
 
 My team is always looking for ways to improve the interview process. We want to avoid the perils that come with whiteboard coding but still evaluate the candidate's coding skills. Usually during the process, we come away with a clear ["heck yeah!" or "no"](https://sivers.org/hellyeah). But occasionally we just can't tell. After reading [The One Method I've Used to Eliminate Bad Tech Hires](https://medium.com/swlh/the-one-method-to-eliminate-bad-tech-hires-630d539b2e1d#.kkljg14pu), we decided to add a paid, take home exercise as part of the interview for these candidates.

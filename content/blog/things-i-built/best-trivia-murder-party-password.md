@@ -9,9 +9,11 @@ aliases:
 categories:
   - password
   - learning
+summary: "Identifying four-letter words with the least common letters in each position. 
+    Since your opponents get told if they match a single letter, it's important that they get as little information as possible."
 ---
 
-Due to COVID-19 and Pennsylvania's stay-at-home order, I've been playing a lot of [Jackbox Games](https://www.jackboxgames.com) with my friends. If you're unfamiliar with the games, one person in the group has to own the game and then streams it (we've been using Discord for this). Everyone else is then able to play the game remotely through a web page that let's you enter answers.
+Due to COVID-19 and Pennsylvania's stay-at-home order, I've been playing a lot of [Jackbox Games](https://www.jackboxgames.com) with my friends. If you're unfamiliar with the games, one person in the group has to own the game and then streams it (we've been using Discord for this). Everyone else is then able to play the game remotely through a web page that lets you enter answers.
 
 One of my group's favorite games is [Trivia Murder Party 2](https://www.jackboxgames.com/trivia-murder-party-two/):
 
@@ -69,4 +71,4 @@ The next step was to take the least common letters in each spot and iterate over
 - umbo
 - updo
 
-I haven't been on the "at-risk" side of the Password mini-game since finishing this list but I'm definitely excited to give them a try. I'm not sure if the game will accept the more obscure words, but echo, etch, and itch should all work. Additionally, I want to work on building a list of words for players on the other side. Effectively, what words should you enter to most quickly identify the password entered by your opponents. Stay tuned for another post on that!
+I haven't been on the "at-risk" side of the Password mini-game since finishing this list, but I'm definitely excited to give them a try. I'm not sure if the game will accept the more obscure words, but echo, etch, and itch should all work. Additionally, I want to work on building a list of words for players on the other side. Effectively, what words should you enter to most quickly identify the password entered by your opponents. Stay tuned for another post on that!

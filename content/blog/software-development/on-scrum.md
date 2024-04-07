@@ -1,12 +1,14 @@
 ---
-title: "On Scrum: Scrum & Agile Are Not Interchangeable Terms"
+title: "Scrum & Agile Are Not Interchangeable Terms"
 date: 2023-01-04T09:03:59-05:00
-lastmod: 2023-07-07T18:07:00-05:00
+lastmod: 2024-03-24T17:17:00-04:00
 author: Jon
 layout: post
 slug: scrum
 aliases:
   - /scrxm/
+summary: 'I get annoyed when people use the words Scrum and Agile interchangeably, implying that Scrum is the only way to "do Agile."
+           Which is a shame, given that the goal should always be agility. Agility is "the ability to think and move quickly and easily".'
 ---
 
 I recently bought the domain name scrxm.com, inspired by the awesome charity [Fxck Cancer](https://www.fuckcancer.org/) and a pet peeve of mine. I get annoyed when people use the words Scrum and Agile interchangeably, implying that Scrum is the only way to "do Agile." To put a finer point on it, if someone you work with is using Scrum and Agile interchangeably, it's a sign that they probably don't know how to build software as part of an agile, high-performing team.
