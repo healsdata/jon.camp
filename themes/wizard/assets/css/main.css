@@ -19,6 +19,11 @@ nav a {
   text-wrap: avoid;
 }
 
+header h1::before,
+header h1::after {
+  color: var(--fg-highlight);
+}
+
 a {
   color: var(--fg-highlight);
   text-decoration: none;
@@ -101,5 +106,10 @@ footer img {
 small,
 figcaption {
   font-size: 80%;
+  font-style: italic;
+}
+
+.front-matter {
+  width: auto;
   font-style: italic;
 }
