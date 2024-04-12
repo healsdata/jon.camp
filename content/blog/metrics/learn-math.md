@@ -1,59 +1,60 @@
 ---
-title: "[DRAFT] Learn Math"
+title: "Cherry-Picked Numbers vs. Comparing Apples to Apples"
 date: 2023-11-12T09:03:59-05:00
+lastmod: 2024-04-11T09:03:59-05:00
 author: Jon
 layout: post
-slug: learn-math
-summary: "A basic understanding of statistics gives you a great sniff test for when people are deceiving you with numbers."
+slug: apples-to-apples
+aliases:
+  - /learn-math
+summary: "A basic understanding of the way companies deceive with numbers without actually lying."
 ---
-
-{{< rawhtml >}}
-<blockquote>
-<small>
-Content Warning: This post uses statistics about pitbull attacks for examples. I'm not here to offer an opinion on the underlying issue and am just using interesting statistics from "both sides" to illustrate my point.*
-</small>
-</blockquote>
-{{< /rawhtml >}}
 
 > Learn math. Math is how you know when they're lying to you.
 >
 > -- [Tom Naughton](https://www.fathead-movie.com/index.php/2010/07/13/outstanding-critique-of-the-china-study/)'s physics professor
 
-As a software engineer, if I had gone the traditional college route and pursued a Computer Science degree, I would have taken a number of interesting math classes. But I had burnt out on math in high school after an intensive, night-time advanced math class with instructors who were incredibly poor at making anything they taught relatable, relatable, or real. To avoid more "hard math", I took stasticis instead of calculus my senior year, expecting it to be an easy A for credit.
+All too often, companies cherry-pick the numbers they use in their reporting, marketing, and more to deceive without actually lying. 
+One technique to see through this is to make sure you're comparing apples to apples e.g. the same periods of time, the same population,
+the same volume. Or, as in this example post, the same serving sizes and cost per portion.
 
-Turns out, statistics is great. It's how you can figure out cool things like the difference between rolling one 20-sided dice vs. two 10-sided dice and the impact that'll have on your game design. 
+{{< rawhtml >}}
+<figure>
+    <img src="/images/content/learn-math/kodiak-canister.png" style="width: 45%" alt="A canister of Kodiak Classic Rolled Oats" />
+    <img src="/images/content/learn-math/quaker-canister.png" style="width: 45%" alt="A canister of Quaker Oats" />
+</figure>
+{{< /rawhtml >}}
 
-It's also a great sniff test for when people are lying to you.
+Let's start with Kodiak Classic Rolled Oats in a canister. They're using the same form factor as the Quaker Oats in a canister 
+we've all known for decades. But blazed across the front of the packaging is "Protein Oats" which implies that Kodiak oats are
+doing something special to be higher protein than their competitors. And it's 100% true! Look at the Nutrition Facts.
 
-I'm going to walk through an example I saw online recently where folks were discussing whether policies banning pitbulls from apartment complexes are based in evidence or emotion. As with most online debates, it was messy and contenious, but the original poster was really trying to stick to stats. She quoted a study that showed, in a temperment test, "Pit Bulls were less likely to show aggression than [Golden Retrievers], Beagles, Bulldogs, Basset Hounds, Bichon Frise, Corgis, Chihuahuas, German Shepherds, Poodles, Yorkshire Terriers..."<sup>[1](#references)</sup>
+{{< rawhtml >}}
+<figure>
+    <img src="/images/content/learn-math/kodiak-nutrition.png" style="width: 45%" alt="Nutrition facts for Kodiak Classic Rolled Oats" />
+    <img src="/images/content/learn-math/quaker-nutrition.png" style="max-height: 480px;" alt="Nutrition facts for Quaker Oats" />
+</figure>
+{{< /rawhtml >}}
 
-Looking at this from a statistical standpoint, we see this quote:
+10g vs. 5g of protein. That's double! But wait... A serving of Kodiak is 50g while a serving of Quaker is 40g. We're not comparing apples
+to apples here. If we normalize the two servings to 50 grams, Quaker becomes 187.5 calories and 6.25 grams of protein. Still less than
+Kodiak, but not as much as one might think at first glance.
 
-> The American Temperament Testing society tested 870 Pit Bulls. 755 of those passed the test, while 115 did not. They had an 86% pass rate.
+The extra protein comes from adding protein powders to oats (*note that Quaker only contains oats*). This, is of course, buried in the 
+nutrition label and not advertised on the front of the tin. But aside from convenience, what's stopping us from adding protein 
+powder to quaker? After all, if we added 10 grams of protein powder to the 40 gram serving of Quaker, both portions would be
+50 grams, but the Quaker mix would then contain 15 grams of protein. So if you're chasing protein, you're better off adding your
+own to Quaker oats.
 
-On the surface, that seems like a highly relevant number. There was a high sample size, a standardized test, and a quick review of the source doesn't appear to reveal any bias.
+But would that be more expensive? These are both canisters of oats, so they must cost about the same? Well at my local grocery store, Kodiak costs $5.99 per
+canister, while Quaker only costs $4.39 per canister. But that isn't the whole story -- while Kodiak comes in a canister to give the
+impression it's the same as Quaker, it actually only contains 9 servings, compared to 13 in the Quaker canister.
 
-But you should immediately start asking questions, especially when the data seems to support one side's arguements so neatly. Questions like:
+If we break the total cost down by serving, Kodiak is 66.5 cents per service while Quaker is only 33.7 cents. So the real question is,
+can we add 5 grams of protein powder for about thirty cents? To keep things fair, I found the first unflavored protein at the same
+local grocer: $26.99 for 464 grams of protein. 29 cents to add 5 grams to Quaker. 
 
-1. We're told 86% is higher than other breeds tested, but not by how much or what the relevance of the difference is.
-2. Does this metric (temperment) directly correlate or predict dog attacks (the original topic)?
+In conclusion, with the amount of protein and number of servings normalized across both brands, Kodiak costs 66.5 cents compared to 62.7 cents for Quaker.
+I'm not recommending you buy one over the other, but now you're armed to decide if you want to spend three extra cents for convenience. 
+Keep these ideas in mind when looking at other numbers; make sure you're comparing apples to apples. 
 
-Sample Size
-
-For Pitbulls and Golden Retrievers, 870 and 785 dogs were tested, respectively. There's formulas and recommendations for sample size (the number of participants tested) based on population size and other factors, but I personally look for 100+ participants most of the time. Anything smaller is looking just at the individuals tested and can't be assumed to reflect the whole population
-
-In the latter half of the article, the author lists a number of breeds that scored lower than Pitbulls to summarize their point. However, of the nine breeds listed, only four had a 100+ sample size, with the lowest being 31 dogs, and none of the other breeds had a sample size in the 785-870 dog range from Pitbulls and Golden Retrievers. In fact, the only breed listed that was tested to the same (or greater) degree was Germand Shepherds at 3500 dogs.
-
-
-Relevance
-This is a classic way people use statistics to mislead without outright lying. In this article, they compare the Pitbull numbers to the Golden Retriever, "one of America's most beloved breeds" and point out that "785 Golden Retrievers [were tested]. Of those, 669 passed and 116 failed — leaving Golden Retrievers with an 85.2% pass rate."
-
-So yes, 85.2% is absolutely less than 86%. But is it relevant? Since these are percentages, both are "X number of dogs per 100 dogs". It's hard to visualize what 0.2 dogs looks like, so let's multiply the numbers by 5 to get whole dogs.
-
-If you encounter 500 Golden Retrievers, 74 of them will be aggressive (500 - (85.2 * 5)). If you encounter 500 Pitbulls, 70 of them will be aggressive
-
-
-
-# References
-
-1. Wadsworth, J. (2023, July 19). American Pit Bull Terrier Temperament Test Has Shocking Result. DogTime. https://dogtime.com/dog-health/general/1220-american-pit-bull-terrier-temperament-dog-bites
