@@ -1,13 +1,16 @@
 ---
-title: "Cherry-Picked Numbers vs. Comparing Apples to Apples"
+title: "Misleading Math: Cherry-Picked Numbers"
 date: 2023-11-12T09:03:59-05:00
 lastmod: 2024-04-11T09:03:59-05:00
 author: Jon
 layout: post
-slug: apples-to-apples
+slug: cherry-picked-numbers
 aliases:
   - /learn-math
-summary: "A basic understanding of the way companies deceive with numbers without actually lying."
+  - /apples-to-apples
+summary: "Picking numbers, and presenting them without context, is one way companies deceive with numbers."
+tags:
+  - misleading-math
 ---
 
 > Learn math. Math is how you know when they're lying to you.

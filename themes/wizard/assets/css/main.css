@@ -113,3 +113,9 @@ figcaption {
   width: auto;
   font-style: italic;
 }
+
+figure.instagram-media {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
