@@ -3,3 +3,4 @@ public/
 *.orig
 .hugo_build.lock
 .idea
+*.http
