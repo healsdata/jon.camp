@@ -32,7 +32,7 @@ Local to Philadelphia but doing some remote placement since the pandemic.
 ### [Dan Christiansen](mailto:Dan.Christiansen@roberthalf.com) at Robert Half
 National firm, mostly doing corporate style placement. I've had mixed results with other recruiters at the same firm, but Dan is awesome.
 
-### [Mark Constan](mark@mtcsearchgroup.com)
+### [Mark Constan](mailto:mark@mtcsearchgroup.com)
   Start-up focused, one-man show. He has some amazing contacts. Local to Philadelphia but he's set me up with remote interviews all over.
     
 ## Etc.
