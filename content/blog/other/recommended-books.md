@@ -8,6 +8,8 @@ aliases:
   - /2017/02/what-books-have-you-gifted-the-most-often/
   - /recommended-books/
 summary: "Books that I've enjoyed and recommended/gifted to others."
+tags:
+  - recommendations
 ---
 
 ## Software Development
