@@ -19,6 +19,10 @@ nav a {
   text-wrap: avoid;
 }
 
+header nav ul li {
+  margin: 0 1rem;
+}
+
 header h1::before,
 header h1::after {
   color: var(--fg-highlight);
