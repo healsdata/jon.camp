@@ -1,7 +1,7 @@
 ---
 title: "Job Hunt Resources"
 date: 2024-02-16T23:14:51-05:00
-lastmod: 2024-08-09T18:07:00-05:00
+lastmod: 2024-09-23T18:07:00-05:00
 author: Jon
 layout: post
 summary: "Job boards, recruiters and other resources I recommend for those looking for a new software engineering job."
@@ -22,8 +22,18 @@ on my blog and then send the link to anyone I know that's looking.
 ### [People-First Jobs](https://peoplefirstjobs.com/)
 A hand-curated list of companies and their current job posts. Updates arrive weekly in newsletter format.
 
-### [4 day week](https://4dayweek.io/)
+### [4-day week](https://4dayweek.io/)
 As the name implies, they focus on companies that offer four-day work weeks. Sometimes at full salary, other times not.
+
+### Non-LinkedIn Recommendations
+I haven't used these job boards personally, but they came from a few sources talking about how sick people are of using LinkedIn for their job search.
+
+* [Welcome to the Jungle](https://otta.com)
+* [job-ish](https://job-ish.com)
+* [Careeer Vault](https://careervault.io)
+* [Massive](https://usemassive.com)
+* [USAJOBS](https://www.usajobs.gov)
+* [PA Employment](https://www.employment.pa.gov)
 
 ## Recommended Recruiters
 ### [Liberty Jobs](https://libertyjobs.com/)
