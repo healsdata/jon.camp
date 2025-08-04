@@ -1,7 +1,7 @@
 ---
 title: "[DRAFT] Path-Based Routing"
 date: 2025-01-24T09:03:59-05:00
-lastmod: 2025-01-24T09:03:59-05:00
+lastmod: 2025-08-03T09:03:59-05:00
 author: Jon
 layout: post
 slug: path-based-routing
