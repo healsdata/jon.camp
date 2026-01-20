@@ -1,6 +1,7 @@
 :root {
   --fg-highlight: #007f7f;
   --bg-highlight: #007f7f88;
+  --bg-alt: #eeeeee;
 }
 
 body {
@@ -41,6 +42,24 @@ nav a:hover {
   text-decoration: none;
 }
 
+blockquote {
+  background-color: var(--bg-alt);
+}
+
+header h1 {
+  vertical-align: text-top;
+}
+
+header h1:before,
+header h1:after  {
+  font-size: 4rem;
+  content: "<";
+  vertical-align: baseline;
+}
+
+header h1:after {
+  content: "/>";
+}
 
 .headshot {
   border-radius: 50%;
@@ -95,7 +114,7 @@ footer img {
 }
 
 .last-updated tr:nth-of-type(2n) {
-  background-color: var(--bg-highlight);
+  background-color: var(--bg-alt);
 }
 
 .last-updated  a {
@@ -122,4 +141,55 @@ figure.instagram-media {
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Blog filter */
+.blog-filter {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  float: right;
+}
+
+.blog-post {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2.5rem;
+}
+
+.blog-post:first-of-type {
+  margin-top: 2.5rem;
+}
+
+.blog-post .post-content {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.blog-post .post-content {
+  background-color: var(--bg-alt);
+  padding: 1rem;
+}
+
+.blog-post .post-dates {
+  flex-shrink: 0;
+  width: 18rem;
+  margin: 0;
+  text-align: right;
+  border-left: 2px dotted var(--fg);
+}
+
+.blog-post .post-summary {
+  flex: 1;
+}
+
+.blog-filter label {
+  font-weight: bold;
+}
+
+.blog-filter select {
+  font-family: "Atkinson Hyperlegible", sans-serif !important;
+  font-size: 1.8rem;
+  margin-bottom: 0;
 }
