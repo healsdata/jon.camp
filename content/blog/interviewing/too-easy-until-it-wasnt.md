@@ -7,7 +7,7 @@ guid: https://jon.camp/?p=65
 aliases:
   - /2017/01/too-easy-until-it-wasnt/
   - /too-easy-until-it-wasnt/
-categories:
+tags:
   - Interviewing
 summary: "When interviewing, basic screening steps can feel unnecessary if every candidate passes.
   However, you may stumble across the candidate who looks good on paper but doesn't pass basic screen steps.

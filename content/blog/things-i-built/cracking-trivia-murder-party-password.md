@@ -5,7 +5,7 @@ author: Jon
 layout: post
 aliases:
   - /2020/07/cracking-trivia-murder-party-password/
-categories:
+tags:
   - password
   - learning
 summary: "A strategy that will help you identify the vowels in the opponents' words. Once you've identified one or more vowels, you can start making logical guesses from there."

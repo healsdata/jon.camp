@@ -6,7 +6,7 @@ layout: post
 slug: number-language
 summary: "Truthful exaggeration is one way companies deceive with numbers without actually lying."
 tags:
-  - misleading-math
+  - misleading math
 ---
 
 > **hyperbole** noun _hy·per·bo·le_

@@ -4,6 +4,9 @@ date: 2024-04-07T17:18:00-04:00
 author: Jon
 layout: post
 summary: An example of using Air (for live reload), Delve (for debugging), and Cobra (for CLI commands) together in Docker for local development.
+tags:
+  - go
+  - docker
 ---
 
 I've been using Go at work for development for the last year. It's been going really well, but we've been running the API

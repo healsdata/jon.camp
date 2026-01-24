@@ -7,6 +7,9 @@ layout: post
 slug: all-the-techniques
 summary: There are a lot of helpful tools and techniques in the agile and development community, 
   but mixing them all together can lead to unintended side effects and consequences. 
+tags:
+  - xp
+  - agile
 ---
 
 One of my favorite board games is Carcassonne. It is easy to teach to new players but has randomness and strategy aspects 

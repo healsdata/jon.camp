@@ -6,7 +6,7 @@ layout: post
 aliases:
   - /2020/06/best-trivia-murder-party-password/
   - /2020/06/trivia-murder-party-password/
-categories:
+tags:
   - password
   - learning
 summary: "Identifying four-letter words with the least common letters in each position. 

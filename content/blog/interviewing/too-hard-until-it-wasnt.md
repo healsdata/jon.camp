@@ -7,7 +7,7 @@ guid: https://jon.camp/?p=68
 aliases:
   - /2017/01/too-hard-until-it-wasnt/
   - /too-hard-until-it-wasnt/
-categories:
+tags:
   - Interviewing
 summary: "When interviewing, it can seem like you're being too hard on candidates when many fail to reach the bar. 
   You may find yourself considering lowering the bar. But more often than not, a candidate will come along and leap over the bar.
