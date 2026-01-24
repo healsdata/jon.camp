@@ -1,9 +1,22 @@
 {{ define "main" }}
-  <p><a href="/blog/">&larr; Back to Blog</a></p>
   <h1>{{ .Title }}</h1>
+
+  {{ if eq .Section "tags" }}
+  <div class="blog-filter">
+    <label for="tag-select">Tag:</label>
+    <select id="tag-select" onchange="if(this.value) window.location.href=this.value;">
+      <option value="">Select a tag...</option>
+      {{ range site.Taxonomies.tags.Alphabetical }}
+      <option value="{{ .Page.RelPermalink }}"{{ if eq $.Title .Page.Title }} selected{{ end }}>{{ .Page.Title }} ({{ .Count }})</option>
+      {{ end }}
+    </select>
+  </div>
+  {{ end }}
+
   {{ .Content }}
   {{ range sort .Pages ".Lastmod" "desc" }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
+    {{ partial "post-card.html" . }}
   {{ end }}
+
+  <p class="more-link"><a href="/blog/">&larr; Back to Blog</a></p>
 {{ end }}

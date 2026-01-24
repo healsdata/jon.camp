@@ -39,7 +39,7 @@ The system Claude & I built combines multiple AI models, each chosen for a speci
 
 I let the models categorize the images but used the web view to verify those categories. After all, even Google Photos manages to confuse the black cats in this house for each other.
 
-## Conslusions
+## Conclusions
 
 The whole system runs locally, processes images in batches, and stores everything in a SQLite database. It's not fancy, but it solves my problem and taught me a lot about integrating multiple AI models into a cohesive workflow. 
 
