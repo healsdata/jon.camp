@@ -1,0 +1,20 @@
+{{- /* Post card partial - expects a page context */ -}}
+<article class="post-card" {{ with .CurrentSection }}data-category="{{ .Title | urlize }}"{{ end }}>
+  <h2 class="post-card-title">
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+  </h2>
+  <div class="post-card-meta">
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format "Jan 2, 2006" }}
+    <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+    {{- if ne (.Date.Format "2006-01-02") (.Lastmod.Format "2006-01-02") }}
+    <span class="updated">
+      (Updated {{ .Lastmod | time.Format "Jan 2, 2006" }})
+    </span>
+    {{- end }}
+  </div>
+  <div class="post-card-excerpt">
+    {{ .Summary }}
+  </div>
+  <a href="{{ .RelPermalink }}" class="post-card-read-more">Continue reading &rarr;</a>
+</article>

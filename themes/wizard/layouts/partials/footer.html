@@ -1,15 +1,14 @@
-<div>
-  <p>
-  This work is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY 4.0</a>
+<div class="site-footer">
+  <span class="site-footer-license">
+    <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer">CC BY 4.0</a>
     {{- with resources.Get "img/cc.svg" }}
-    <img src="{{ .RelPermalink }}" alt=""/>
+    <img src="{{ .RelPermalink }}" alt="Creative Commons">
     {{- end }}
     {{- with resources.Get "img/by.svg" }}
-    <img src="{{ .RelPermalink }}" alt=""/>
+    <img src="{{ .RelPermalink }}" alt="Attribution">
     {{- end }}
-
-  </p>
-<p class="align-right">
-  Built using <a href="https://gohugo.io/"  target="_blank" rel="noopener noreferrer">Hugo</a> and <a href="https://css.winterveil.net/" target="_blank" rel="noopener noreferrer">magick.css</a>
-</p>
+  </span>
+  <span>
+    Built with <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>
+  </span>
 </div>

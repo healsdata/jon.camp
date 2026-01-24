@@ -1,19 +1,13 @@
 {{ define "main" }}
-  {{ .Content }}
-
-  <h2>Latest Updates</h2>
-  <table class="last-updated">
-    <thead>
-      <tr>
-        <th>Post</th>
-        <th class="align-right">Modified</th>
-      </tr>
-    </thead>
-  {{ range sort site.RegularPages ".Lastmod" "desc" | first 5 }}
-    <tr>
-      <td><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></td>
-      <td class="align-right">{{ time.Format "January 2, 2006" .Lastmod }}</td>
-    </tr>
+  <h2>Recent Posts</h2>
+  {{ range sort site.RegularPages ".Lastmod" "desc" | first 10 }}
+    {{ partial "post-card.html" . }}
   {{ end }}
-  </table>
+
+  <p class="more-link"><a href="/blog/">More &rarr;</a></p>
+
+  <aside class="homepage-footnote">
+    <p>I'm bad at remembering to finish blog posts. I have a lot of ideas that never get past the first draft stage. I've decided to share drafts here, marked with <strong>[DRAFT]</strong> in the title until they're done.</p>
+    <p>This allows me to share things I currently find interesting and update them when I learn something new.</p>
+  </aside>
 {{ end }}

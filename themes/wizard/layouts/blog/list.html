@@ -1,7 +1,9 @@
 {{ define "main" }}
+  <h1>{{ .Title }}</h1>
+
   {{/* Category filter */}}
   <div class="blog-filter">
-    <label for="category-select">Category</label>
+    <label for="category-select">Category:</label>
     <select id="category-select">
       <option value="all">All</option>
       {{ range .Sections }}
@@ -10,43 +12,17 @@
     </select>
   </div>
 
-  <h1>{{ .Title }}</h1>
-
-  {{/* Get all categories (child sections of /blog) */}}
-  {{ $categories := slice }}
-  {{ range .Sections }}
-    {{ $categories = $categories | append .Title }}
-  {{ end }}
-
-
-
   {{/* List all posts from all categories */}}
   <div class="blog-posts">
     {{ range sort .RegularPagesRecursive ".Lastmod" "desc" }}
-      <article class="blog-post" data-category="{{ .CurrentSection.Title | urlize }}">
-        <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-        <div class="post-content">
-          <div class="post-summary">{{ .Summary }}</div>
-          <aside class="front-matter post-dates">
-            {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-            {{ $dateHuman := .Date | time.Format "Jan 2, 2006" }}
-            <time datetime="{{ $dateMachine }}">Written: {{ $dateHuman }}</time>
-            {{ if ne .Date .Lastmod }}
-            <br>
-            {{ $dateMachine := .Lastmod | time.Format "2006-01-02T15:04:05-07:00" }}
-            {{ $dateHuman := .Lastmod | time.Format "Jan 2, 2006" }}
-            <time datetime="{{ $dateMachine }}">Modified: {{ $dateHuman }}</time>
-            {{ end }}
-          </aside>
-        </div>
-      </article>
+      {{ partial "post-card.html" . }}
     {{ end }}
   </div>
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       const select = document.getElementById('category-select');
-      const posts = document.querySelectorAll('.blog-post');
+      const posts = document.querySelectorAll('.post-card');
 
       select.addEventListener('change', function() {
         const category = this.value;
