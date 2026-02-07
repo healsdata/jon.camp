@@ -29,7 +29,7 @@
             </span>
             <span class="link-domain">{{ with urls.Parse .Params.link }}{{ .Host }}{{ end }}</span>
           </span>
-          <p class="link-card-summary">{{ .Content | plainify | truncate 200 }}</p>
+          <p class="link-card-summary">{{ if .Truncated }}{{ .Summary | plainify }}{{ else }}{{ .Content | plainify }}{{ end }}</p>
         </article>
       {{- end }}
     </div>
