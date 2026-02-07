@@ -1,0 +1,33 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+
+  {{ with .Content }}
+    <div class="section-intro">{{ . }}</div>
+  {{ end }}
+
+  <div class="links-list">
+    {{ range sort .Pages ".Date" "desc" }}
+      <article class="link-card">
+        <h3 class="link-card-title">
+          <a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ .Title }}</a>
+        </h3>
+        <div class="link-card-meta">
+          {{- $hasPublished := .Params.published }}
+          <span class="date-display{{ if $hasPublished }} has-update{{ end }}">
+            <time datetime="{{ .Date | time.Format "2006-01-02" }}">{{ .Date | time.Format "Jan 2, 2006" }}</time>
+            {{- if $hasPublished }}
+            <span class="date-tooltip">
+              <span class="date-created">Published {{ .Params.published | time.Format "Jan 2, 2006" }}</span>
+              <span class="date-updated">Added {{ .Date | time.Format "Jan 2, 2006" }}</span>
+            </span>
+            {{- end }}
+          </span>
+          <span class="link-domain">{{ with urls.Parse .Params.link }}{{ .Host }}{{ end }}</span>
+        </div>
+        <div class="link-card-summary">
+          {{ .Content }}
+        </div>
+      </article>
+    {{ end }}
+  </div>
+{{ end }}

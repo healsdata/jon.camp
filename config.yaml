@@ -21,3 +21,5 @@ publishDir: public
 permalinks:
   /: /:slug/
   blog: /:sections[1:]/:slug/
+  links: /links/:filename/
+

@@ -1,16 +1,49 @@
 {{ define "main" }}
-  <h2>Recent Posts</h2>
-  {{- $pinned := where site.RegularPages ".Params.pinned" true }}
-  {{- $notPinned := where site.RegularPages ".Params.pinned" "!=" true }}
-  {{- $recent := sort $notPinned ".Lastmod" "desc" | first (sub 10 (len $pinned)) }}
+  {{- $posts := where site.RegularPages "Section" "!=" "links" }}
+  {{- $pinned := where $posts ".Params.pinned" true }}
+  {{- $notPinned := where $posts ".Params.pinned" "!=" true }}
+  {{- $recent := sort $notPinned ".Lastmod" "desc" | first 5 }}
+
   {{- range $pinned }}
     {{ partial "post-card.html" . }}
   {{- end }}
-  {{- range $recent }}
-    {{ partial "post-card.html" . }}
-  {{ end }}
 
-  <p class="more-link"><a href="/blog/">More &rarr;</a></p>
+  {{- $links := where site.RegularPages "Section" "links" }}
+  {{- if $links }}
+  <section class="homepage-links">
+    <h2>Recent Readings</h2>
+    <div class="links-list">
+      {{- range sort $links ".Date" "desc" | first 2 }}
+        <article class="link-card">
+          <a href="{{ .Params.link }}" target="_blank" rel="noopener" class="link-card-title">{{ .Title }}</a>
+          <span class="link-card-meta">
+            {{- $hasPublished := .Params.published }}
+            <span class="date-display{{ if $hasPublished }} has-update{{ end }}">
+              <time datetime="{{ .Date | time.Format "2006-01-02" }}">{{ .Date | time.Format "Jan 2, 2006" }}</time>
+              {{- if $hasPublished }}
+              <span class="date-tooltip">
+                <span class="date-created">Published {{ .Params.published | time.Format "Jan 2, 2006" }}</span>
+                <span class="date-updated">Added {{ .Date | time.Format "Jan 2, 2006" }}</span>
+              </span>
+              {{- end }}
+            </span>
+            <span class="link-domain">{{ with urls.Parse .Params.link }}{{ .Host }}{{ end }}</span>
+          </span>
+          <p class="link-card-summary">{{ .Content | plainify | truncate 200 }}</p>
+        </article>
+      {{- end }}
+    </div>
+    <p class="more-link"><a href="/links/">More &rarr;</a></p>
+  </section>
+  {{- end }}
+
+  <section class="homepage-writings">
+    <h2>Recent Writings</h2>
+    {{- range $recent }}
+      {{ partial "post-card.html" . }}
+    {{- end }}
+    <p class="more-link"><a href="/blog/">More &rarr;</a></p>
+  </section>
 
   <aside class="homepage-footnote">
     <p>I'm bad at remembering to finish blog posts. I have a lot of ideas that never get past the first draft stage. I've decided to share drafts here, marked with <strong>[DRAFT]</strong> in the title until they're done.
