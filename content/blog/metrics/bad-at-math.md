@@ -7,7 +7,7 @@ layout: post
 slug: being-wrong-to-prove-a-point
 summary: "Truthful exaggeration is one way companies deceive with numbers without actually lying."
 tags:
-  - misleading-math
+  - misleading math
 ---
 
 Recently, the [Male/Female Standards Calculator](https://keeper.ai/tools/calculator) has been making the rounds on social

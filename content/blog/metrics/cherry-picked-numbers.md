@@ -10,7 +10,7 @@ aliases:
   - /apples-to-apples
 summary: "Picking numbers, and presenting them without context, is one way companies deceive with numbers."
 tags:
-  - misleading-math
+  - misleading math
 ---
 
 > Learn math. Math is how you know when they're lying to you.

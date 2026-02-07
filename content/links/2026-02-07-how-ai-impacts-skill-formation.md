@@ -1,6 +1,6 @@
 ---
 title: "How AI Impacts Skill Formation"
-date: 2026-02-07
+date: 2026-02-06
 published: 2026-01-28
 link: "https://arxiv.org/abs/2601.20245"
 ---

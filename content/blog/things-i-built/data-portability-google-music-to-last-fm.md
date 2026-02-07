@@ -5,7 +5,7 @@ author: Jon
 layout: post
 aliases:
   - /2020/09/data-portability-google-music-to-last-fm/
-categories:
+tags:
   - music
   - learning
 summary: 'When Google announced earlier that Play Music was going away, I started considering other services with music discovery,
