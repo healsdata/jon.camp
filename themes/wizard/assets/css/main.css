@@ -199,9 +199,55 @@ a:hover {
   margin-bottom: 0.75rem;
 }
 
-.post-card-meta .updated {
-  color: var(--color-primary);
-  font-style: italic;
+.post-card-meta .date-display {
+  position: relative;
+}
+
+.post-card-meta .date-display.has-update {
+  cursor: default;
+}
+
+.post-card-meta .date-display.has-update time {
+  border-bottom: 1px dotted var(--color-text-muted);
+}
+
+.post-card-meta .date-tooltip {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  margin-top: 0.5rem;
+  background-color: var(--color-text);
+  color: var(--color-bg);
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.post-card-meta .date-tooltip::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: 1rem;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid var(--color-text);
+}
+
+.post-card-meta .date-display:hover .date-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+.post-card-meta .date-updated {
+  color: var(--color-primary-light);
 }
 
 .post-card-excerpt {
