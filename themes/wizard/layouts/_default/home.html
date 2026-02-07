@@ -1,6 +1,12 @@
 {{ define "main" }}
   <h2>Recent Posts</h2>
-  {{ range sort site.RegularPages ".Lastmod" "desc" | first 10 }}
+  {{- $pinned := where site.RegularPages ".Params.pinned" true }}
+  {{- $notPinned := where site.RegularPages ".Params.pinned" "!=" true }}
+  {{- $recent := sort $notPinned ".Lastmod" "desc" | first (sub 10 (len $pinned)) }}
+  {{- range $pinned }}
+    {{ partial "post-card.html" . }}
+  {{- end }}
+  {{- range $recent }}
     {{ partial "post-card.html" . }}
   {{ end }}
 

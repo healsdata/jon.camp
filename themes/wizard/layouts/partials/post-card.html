@@ -1,6 +1,7 @@
 {{- /* Post card partial - expects a page context */ -}}
-<article class="post-card" {{ with .CurrentSection }}data-category="{{ .Title | urlize }}"{{ end }}>
+<article class="post-card{{ if .Params.pinned }} pinned{{ end }}" {{ with .CurrentSection }}data-category="{{ .Title | urlize }}"{{ end }}>
   <h2 class="post-card-title">
+    {{- if .Params.pinned }}<svg class="pin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M16 12V4h1V2H7v2h1v8l-2 2v2h5.2v6h1.6v-6H18v-2l-2-2z"/></svg>{{ end -}}
     <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
   </h2>
   <div class="post-card-meta">
