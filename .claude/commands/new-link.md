@@ -21,12 +21,7 @@ When the user invokes this skill with a URL and optional saved date:
    - Date is the saved-date if provided, otherwise today's date
    - Slug is derived from the title (lowercase, hyphens, no special chars)
 
-3. **IMPORTANT:** Before writing the file, replace all smart/curly quotes with straight ASCII equivalents in both the title and summary:
-   - `'` (U+2018) and `'` (U+2019) → `'` (straight apostrophe)
-   - `"` (U+201C) and `"` (U+201D) → `"` (straight double quote)
-   Hugo's typographer will double-encode these as `&rsquo;` etc. if they're already in the source.
-
-4. The file should have this structure:
+3. The file should have this structure:
    ```
    ---
    title: "The extracted title"
@@ -38,6 +33,6 @@ When the user invokes this skill with a URL and optional saved date:
    The 2-3 sentence summary from the fetch.
    ```
 
-5. After creating the file, let the user know it was added and show them the title and summary.
+4. After creating the file, let the user know it was added and show them the title and summary.
 
-6. If the user wants to tweak the title or summary, help them edit it.
+5. If the user wants to tweak the title or summary, help them edit it.
