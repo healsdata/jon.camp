@@ -8,7 +8,7 @@
   {{- $s := newScratch -}}
   {{- $s.Set "line" "" -}}
   {{- $s.Set "lines" (slice) -}}
-  {{- $maxLen := 22 -}}
+  {{- $maxLen := 18 -}}
   {{- range (split $title " ") -}}
     {{- $cur := ($s.Get "line") -}}
     {{- $test := cond (eq $cur "") . (printf "%s %s" $cur .) -}}
