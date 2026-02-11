@@ -8,7 +8,7 @@
 {{- $ogType := "website" }}
 {{- if not .IsHome }}
   {{- $title = .Title }}
-  {{- $description = .Summary | plainify | truncate 200 }}
+  {{- $description = .Summary | plainify | truncate 155 }}
   {{- if .Params.image }}
     {{- $image = .Params.image | absURL }}
   {{- end }}
