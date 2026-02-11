@@ -1,10 +1,6 @@
 {{- $img := resources.Get "images/og-template.png" -}}
 {{- if $img -}}
   {{- $title := .Title -}}
-  {{/* Replace hyphens and em-dashes with hyphen + space so they act as word breaks */}}
-  {{- $title = replaceRE `(\S)-(\S)` "$1- $2" $title -}}
-  {{- $title = replaceRE `(\S)–(\S)` "$1– $2" $title -}}
-  {{- $title = replaceRE `(\S)—(\S)` "$1— $2" $title -}}
   {{- $s := newScratch -}}
   {{- $s.Set "line" "" -}}
   {{- $s.Set "lines" (slice) -}}
