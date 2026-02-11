@@ -11,6 +11,11 @@
   {{- $description = .Summary | plainify | truncate 155 }}
   {{- if .Params.image }}
     {{- $image = .Params.image | absURL }}
+  {{- else }}
+    {{- $ogImage := partial "og-image.html" . }}
+    {{- with $ogImage }}
+      {{- $image = . }}
+    {{- end }}
   {{- end }}
   {{- if .IsPage }}
     {{- $ogType = "article" }}
@@ -23,7 +28,7 @@
 <meta property="og:site_name" content="{{ site.Title }}">
 <meta property="og:type" content="{{ $ogType }}">
 <meta property="og:image" content="{{ $image }}">
-<meta name="twitter:card" content="{{ if .Params.image }}summary_large_image{{ else }}summary{{ end }}">
+<meta name="twitter:card" content="{{ if or .Params.image (not .IsHome) }}summary_large_image{{ else }}summary{{ end }}">
 <meta name="twitter:title" content="{{ $title }}">
 <meta name="twitter:description" content="{{ $description }}">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">

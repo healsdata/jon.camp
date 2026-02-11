@@ -1,0 +1,34 @@
+{{- $img := resources.Get "images/og-template.png" -}}
+{{- if $img -}}
+  {{- $title := .Title -}}
+  {{/* Replace hyphens and em-dashes with hyphen + space so they act as word breaks */}}
+  {{- $title = replaceRE `(\S)-(\S)` "$1- $2" $title -}}
+  {{- $title = replaceRE `(\S)–(\S)` "$1– $2" $title -}}
+  {{- $title = replaceRE `(\S)—(\S)` "$1— $2" $title -}}
+  {{- $s := newScratch -}}
+  {{- $s.Set "line" "" -}}
+  {{- $s.Set "lines" (slice) -}}
+  {{- $maxLen := 22 -}}
+  {{- range (split $title " ") -}}
+    {{- $cur := ($s.Get "line") -}}
+    {{- $test := cond (eq $cur "") . (printf "%s %s" $cur .) -}}
+    {{- if and (ne $cur "") (gt (len $test) $maxLen) -}}
+      {{- $s.Add "lines" (slice $cur) -}}
+      {{- $s.Set "line" . -}}
+    {{- else -}}
+      {{- $s.Set "line" $test -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if ne ($s.Get "line") "" -}}
+    {{- $s.Add "lines" (slice ($s.Get "line")) -}}
+  {{- end -}}
+  {{- $wrapped := delimit ($s.Get "lines") "\n" -}}
+  {{- $img = $img.Filter (images.Text $wrapped (dict
+    "size" 48
+    "color" "#222222"
+    "x" 60
+    "y" 240
+    "linespacing" 8
+  )) -}}
+  {{- return $img.Permalink -}}
+{{- end -}}

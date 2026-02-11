@@ -14,7 +14,7 @@ summary: "When interviewing, basic screening steps can feel unnecessary if every
   It's best to keep the basic screen to save on everyone's time going down the rest of the interview process."
 ---
 
-Back when I started interviewing, I read many articles including <a href="https://blog.codinghorror.com/why-cant-programmers-program/" target="_blank">Jeff Atwood's</a> describing the now ubiquitous FizzBuzz. My team and I all thought it would be a good thing to add to our interviews because the truth is always in the code, right?
+Back when I started interviewing, I read many articles including [Jeff Atwood's](https://blog.codinghorror.com/why-cant-programmers-program/) describing the now ubiquitous FizzBuzz. My team and I all thought it would be a good thing to add to our interviews because the truth is always in the code, right?
 
 I'll be honest, the first ten or twenty times I asked a candidate to complete FizzBuzz during an interview, I felt sheepish about it. It seemed too easy and a bit like we were going through the motions. Sure, everyone has a slightly different approach and a few of them _felt_ wrong, but everyone completed it. My colleagues and I began to question whether or not it was worth it. Were we learning anything about the candidates by having them complete it?
 
@@ -22,6 +22,6 @@ Then we ran into our first candidate that simply didn't know where to start. He 
 
 I've always tried to give people the benefit of the doubt in terms of nerves during an interview. This has grown into my general disdain of whiteboard programming. On a day to day basis, we all have time to consider a problem, write some throwaway code, Google a few ideas, and then implement a working solution. All without being judged every step of the way. This is why my current hiring process involves a small take-home coding exercise instead. It isn't much more complicated than FizzBuzz and yet it continually manages to filter people out.
 
-I highly recommend you include something like<sup>1</sup> FizzBuzz in your technical interview process. It will be easy for most people. But when it filters someone out, you'll be happy to have spent a few minutes up front.
+I highly recommend you include something like[^1] FizzBuzz in your technical interview process. It will be easy for most people. But when it filters someone out, you'll be happy to have spent a few minutes up front.
 
-<sup id="fn1">1. FizzBuzz is too well-known now. I've had candidates tell me they learned it in school as part of interview prep. Additionally, if you use a popular example like Uncle Bob's bowling kata, you'll find that people will submit code copy and pasted from GitHub. Instead, write your own exercise and test it with members of your team. <a href="http://codegolf.stackexchange.com/" target="_blank">Code Golf</a> is a good place to find inspiration.</sup>
+[^1]: FizzBuzz is too well-known now. I've had candidates tell me they learned it in school as part of interview prep. Additionally, if you use a popular example like Uncle Bob's bowling kata, you'll find that people will submit code copy and pasted from GitHub. Instead, write your own exercise and test it with members of your team. [Code Golf](http://codegolf.stackexchange.com/) is a good place to find inspiration.
