@@ -1,7 +1,7 @@
 ---
 title: "Gender Differences in Economics Seminars"
 date: 2026-02-03
-published: 2026-02
+published: 2026-02-03
 link: "https://www.aeaweb.org/articles?id=10.1257/aer.20241718"
 ---
 

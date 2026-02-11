@@ -1,6 +1,31 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+
+{{- $title := site.Title }}
+{{- $description := site.Params.description | default site.Title }}
+{{- $image := "images/jc.png" | absURL }}
+{{- $ogType := "website" }}
+{{- if not .IsHome }}
+  {{- $title = .Title }}
+  {{- $description = .Summary | plainify | truncate 200 }}
+  {{- if .Params.image }}
+    {{- $image = .Params.image | absURL }}
+  {{- end }}
+  {{- if .IsPage }}
+    {{- $ogType = "article" }}
+  {{- end }}
+{{- end }}
+<meta name="description" content="{{ $description }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:type" content="{{ $ogType }}">
+<meta property="og:image" content="{{ $image }}">
+<meta name="twitter:card" content="{{ if .Params.image }}summary_large_image{{ else }}summary{{ end }}">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $description }}">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
