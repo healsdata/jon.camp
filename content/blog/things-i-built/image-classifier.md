@@ -9,9 +9,9 @@ tags:
 
 I recently built an image classification and curation system to help organize a few thousand photos, screenshots, and memes that had been stuffed into an "Unsorted" folder over the years. We are talking blurry screenshots of recipes, duplicate photos from burst mode, memes I saved in 2019 and forgot about, and buried somewhere in there, actual photos of the house, the cats, and things I actually wanted to keep.
 
-I decided to vibe code the project, both to get more experience with Claude Code but also because using models in my code is relatively new to me.
-
 <!--more-->
+
+I decided to vibe code the project, both to get more experience with Claude Code but also because using models in my code is relatively new to me.
 
 This wasn't my first crack at the problem. I'd previously cobbled together a solution using ChatGPT (I didn't have a paid AI tool at home.) I copied code snippets, pasting them into PyCharm, copying errors back, and repeating. 
 
