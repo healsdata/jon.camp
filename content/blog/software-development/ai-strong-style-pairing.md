@@ -1,7 +1,7 @@
 ---
 title: "AI: The Perfect Strong-Style Pairing Partner"
 date: 2026-01-29T09:00:00-05:00
-lastmod: 2026-02-13
+lastmod: 2026-02-13T12:00:00-05:00
 author: Jon
 layout: post
 slug: ai-strong-style-pairing
