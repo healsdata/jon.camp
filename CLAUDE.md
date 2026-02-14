@@ -37,3 +37,4 @@ Configured in config.yaml permalinks:
 - Posts with `[DRAFT]` in title are works in progress
 - Use `{{< rawhtml >}}...{{< /rawhtml >}}` shortcode for embedded HTML
 - Aliases in frontmatter handle redirects from old paths
+- Never use emdashes (—), endashes (–), colons (:), or semicolons (;) when writing text content for blog or link posts
