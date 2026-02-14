@@ -38,3 +38,6 @@ Configured in config.yaml permalinks:
 - Use `{{< rawhtml >}}...{{< /rawhtml >}}` shortcode for embedded HTML
 - Aliases in frontmatter handle redirects from old paths
 - Never use emdashes (—), endashes (–), colons (:), or semicolons (;) when writing text content for blog or link posts
+- All dates in frontmatter must be full timestamps with timezone (e.g., `2026-02-13T12:00:00-05:00`), not bare dates
+- When updating an existing post, always add or update the `lastmod` field with a full timestamp
+- For link posts created by the new-link skill, if the source article's published date has no time available, use `00:00:00` for the time portion
