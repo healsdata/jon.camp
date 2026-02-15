@@ -1,6 +1,7 @@
 ---
-title: "[DRAFT] Auto-Generating OpenGraph Images in Hugo"
+title: "Auto-Generating OpenGraph Images in Hugo"
 date: 2026-02-10T21:59:17-05:00
+lastmod: 2026-02-14T11:59:17-05:00
 author: Jon
 layout: post
 slug: auto-generating-opengraph-images-in-hugo
@@ -9,29 +10,41 @@ tags:
   - hugo
 ---
 
-*This post was written entirely by Claude as part of the work to implement the OG image generation system.*
+I recently posted a link to one of my blog articles on BlueSky and was bummed how plain it looked compared to the very cool preview image in someone else's post. 
+I vaguely knew about OpenGraph and similar standards and so I went looking. 
+On [opengraph.xyz](https://www.opengraph.xyz) I learned the images should be unique per article and have a call-to-action.
 
-Every blog post needs an OpenGraph image. It's the preview card that shows up when you share a link on Slack, Twitter, or anywhere else. Without one, you get either a blank card or whatever random image the platform decides to scrape from your page.
-
-Making them by hand is tedious. You open Figma, type in the title, export, save it to the right folder, reference it in frontmatter. For a personal blog, that's enough friction to make you skip it entirely.
-
-I wanted something that would just happen as part of the build. No Node scripts, no external services, no API calls. Just Hugo.
+In the words of a famous meme, "ain't nobody got time for that".
 
 <!--more-->
 
-## The approach
+I wanted something that would just happen automagically.
 
-Hugo has a built-in `images.Text` filter that can overlay text onto an image. The idea is simple. Start with a branded template image, word-wrap the post title, and stamp it on at build time. Every post gets a unique OG image automatically.
+1. Look for the most unique word in the blog post
+2. Grab an Unsplash image for that word
+3. ???
+4. Profit!
 
-## The template image
 
-The base image is a 1200x630 PNG (the standard OG image size) that lives at `assets/images/og-template.png`. It has the site branding and visual design baked in, with a blank area reserved for the post title.
+## Hugo Has a Tool for That
 
-Putting it in `assets/` rather than `static/` is important. Hugo's image processing pipeline only works with files loaded through `resources.Get`, which pulls from `assets/`.
+Working with Claude, I learned that Hugo has a built-in `images.Text` filter that can overlay text onto an image. 
+So the MVP for this feature was simple: make a template with a blank area, use Hugo to write the post title on that, and ship it.
 
-## The partial
+### The Template Image
 
-Here's the full `layouts/partials/og-image.html` partial that does the work.
+Given that I'm a super awesome graphic artist, I made a very basic template of my domain name and favicon. It is a 1200x630 PNG, the recommended size for most social media services. 
+
+{{< rawhtml >}}
+  <a href="/images/og-template.png"><img src="/images/og-template.png" alt="A very basic template that reads 'jon.camp' above a green line and has the letters JC in a rounded square." /></a>
+{{< /rawhtml >}}
+
+
+This image needed to live in in `assets/` rather than `static/` unlike the other images on my blog. Hugo's image processing pipeline only works with files loaded through `resources.Get`, which pulls from `assets/`.
+
+### The Hugo Partial
+
+Here's the Hugo partial I dropped in `layouts/partials/og-image.html` the work.
 
 ```html
 {{- $img := resources.Get "images/og-template.png" -}}
@@ -66,7 +79,9 @@ Here's the full `layouts/partials/og-image.html` partial that does the work.
 {{- end -}}
 ```
 
-Let me walk through what this does.
+This could be simpler, but the very first post I tried it with had a long time that bled off the
+side of the template image. So this got a bit more complicated, but we can walk through what it does.
+
 
 **Loading the template.** `resources.Get` pulls the base image from `assets/images/`. If the file doesn't exist, the whole block is skipped and no OG image is generated.
 
@@ -76,9 +91,9 @@ Let me walk through what this does.
 
 **Returning the result.** The partial returns the permalink to the generated image, which the calling template can drop straight into a meta tag.
 
-## Wiring it into the head
+### Wiring It Up to the Post Template
 
-The `head.html` partial handles picking the right image for each page.
+The `head.html` partial handles picking and listing the right image for each page. 
 
 ```html
 {{- $image := "images/jc.png" | absURL }}
@@ -97,12 +112,21 @@ The `head.html` partial handles picking the right image for each page.
 
 The logic is straightforward. The homepage gets a default site image. For any other page, if there's a custom `image` in the frontmatter, that takes priority. Otherwise, it calls the `og-image` partial to generate one from the title. This means you can always override the auto-generated image by setting `image` in a post's frontmatter.
 
-## Caching
+### Performance
 
-Hugo handles caching automatically. Generated images land in `resources/_gen/images/` and Hugo only regenerates them when the inputs change (the title or the template image). This means the first build processes every post, but subsequent builds are fast.
+Generated images land in `resources/_gen/images/` at build time so, while the build may take longer
+now, the output remains a static site that only uses static assets. There's also some caching in the build step that only regenerates the images if the input, aka the title, changes.
 
 ## Wrapping up
 
-The whole system is about 30 lines of template code and a single PNG. No build plugins, no npm dependencies, no third-party services. It runs as part of `hugo build` and produces a unique, branded OG image for every post on the site.
+One of the reasons I like this solution is because I'm inevitably going to forget that it exists.
+I don't have to do any work to maintain images or add new ones for every post. In fact, the only
+time I'm going to remember it's there is when I post a little on social media and it isn't dreadfully
+boring.
 
-It's one of those things that, once set up, you never think about again. Write a post, publish it, and the OG image just exists.
+### One Gotcha
+
+While deploying to DigitalOcean, I found that the images weren't working. Turns out, I was using a much older version of Hugo on the build server than I was locally and they each handled this process differently. Hugo is still using 0.x.x versioning after... fourteen years. So it's hard to known which versions are going to dramatically change things.
+
+But you should also keep your development and production environments using the same version. Cuts down on the "it worked on my machine!" which is exactly what happened to me here.
+
