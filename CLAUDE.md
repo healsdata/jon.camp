@@ -41,3 +41,7 @@ Configured in config.yaml permalinks:
 - All dates in frontmatter must be full timestamps with timezone (e.g., `2026-02-13T12:00:00-05:00`), not bare dates
 - When updating an existing post, always add or update the `lastmod` field with a full timestamp
 - For link posts created by the new-link skill, if the source article's published date has no time available, use `00:00:00` for the time portion
+
+## Constraints
+
+- Do NOT use alternative user-agents or other workarounds to bypass websites that prevent AI bot access. If you cannot access a site, ask the user to provide the content.
