@@ -1,7 +1,7 @@
 ---
 title: 'Caffeine - The Good, The Bad, The Withdraw'
 date: 2022-09-09T18:35:00-05:00
-summary: "A collection of facts, quotes, etc. about caffeine"
+summary: "Caffeine improves cognitive performance and fat-burning during exercise, but overuse leads to anxiety, disrupted sleep, and withdrawal symptoms you can beat with amino acid supplements."
 slug: "caffeine"
 aliases:
   - /caffeine/

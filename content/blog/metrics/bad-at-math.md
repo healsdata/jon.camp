@@ -5,7 +5,7 @@ draft: true
 author: Jon
 layout: post
 slug: being-wrong-to-prove-a-point
-summary: "Truthful exaggeration is one way companies deceive with numbers without actually lying."
+summary: "A viral dating standards calculator uses US Census data to make your preferences look unreasonable, but comparing your requirements to the entire US population (including children and the elderly) is not the gotcha they think it is."
 tags:
   - misleading math
 ---

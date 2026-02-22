@@ -2,6 +2,7 @@
 title: "Building an ML-Powered Image Classifier with Claude"
 date: 2026-01-23
 lastmod: 2026-02-13T13:00:00-05:00
+summary: "I used Claude Code to vibe code an image classifier that combines YOLOv8, OpenCLIP, and BLIP to sort thousands of unsorted photos and screenshots, then trained a logistic regression model on CLIP embeddings to predict which ones were worth keeping."
 tags:
   - learning
   - vibe coding
