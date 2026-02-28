@@ -1,6 +1,6 @@
 ---
 title: "The Factory Model: How Coding Agents Changed Software Engineering"
-date: 2026-02-28T12:00:00-05:00
+date: 2026-02-28T10:00:00-05:00
 published: 2026-02-25T00:00:00+00:00
 link: "https://addyosmani.com/blog/factory-model/"
 ---

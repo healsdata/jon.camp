@@ -1,6 +1,6 @@
 ---
 title: "What AI Coding Costs You"
-date: 2026-02-28T12:00:00-05:00
+date: 2026-02-28T10:00:00-05:00
 published: 2026-02-15T00:00:00+00:00
 link: "https://tomwojcik.com/posts/2026-02-15/finding-the-right-amount-of-ai/"
 ---
