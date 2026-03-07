@@ -5,4 +5,4 @@ link: "https://soundcloud.com/prateek-singh-834486192/episode-107-most-agile-is-
 media: "https://feeds.soundcloud.com/stream/2277189707-prateek-singh-834486192-episode-107-most-agile-is-not.mp3"
 ---
 
-The Drunk Agile crew takes on the uncomfortable truth that most Agile practices lack rigorous scientific backing. Popular frameworks and rituals get adopted on faith and cargo-culting rather than evidence. A refreshingly honest look at what the research actually says.
+The hosts argue that popular frameworks like Scrum and SAFe are built on conjecture and biased empiricism rather than peer-reviewed science. Rules like fixed team sizes and sprint lengths have no scientific proof of efficacy. In contrast, they champion flow science rooted in the mathematically proven work of Dr. Donald Little and Walter Shewhart. Increasing WIP raises completion time, excess WIP kills throughput, and variability must be analyzed before making sound decisions.
