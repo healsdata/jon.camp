@@ -7,7 +7,6 @@ slug: write-about-technical-learnings
 summary: "@feld wrote a deeply specific blog post about WolfSSL's broken TLS 1.3 implementation and it reminded me why niche technical writing matters more than most people think."
 tags:
   - writing
-  - software-development
 ---
 
 I read a blog post this week called ["WolfSSL Sucks Too, So Now What?"](https://blog.feld.me/posts/2026/02/wolfssl-sucks-too/) and it made me smile like an idiot. 
