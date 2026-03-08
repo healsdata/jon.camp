@@ -6,7 +6,7 @@ author: Jon
 layout: post
 slug: ai-maturity-model
 tags:
-  - vibe coding
+  - agentic coding
   - agile
 summary: "A critique of a viral 'AI Maturity Model' that reframes forced adoption and performance review enforcement as maturity. Contrasted with well-known frameworks like DORA and Tuckman's stages, which focus on team growth and practice rather than top-down tool mandates."
 ---

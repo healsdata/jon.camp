@@ -5,7 +5,7 @@ lastmod: 2026-02-13T13:00:00-05:00
 summary: "I used Claude Code to vibe code an image classifier that combines YOLOv8, OpenCLIP, and BLIP to sort thousands of unsorted photos and screenshots, then trained a logistic regression model on CLIP embeddings to predict which ones were worth keeping."
 tags:
   - learning
-  - vibe coding
+  - agentic coding
 ---
 
 I recently built an image classification and curation system to help organize a few thousand photos, screenshots, and memes that had been stuffed into an "Unsorted" folder over the years. We are talking blurry screenshots of recipes, duplicate photos from burst mode, memes I saved in 2019 and forgot about, and buried somewhere in there, actual photos of the house, the cats, and things I actually wanted to keep.

@@ -6,7 +6,7 @@ layout: post
 slug: ralphs-chili
 summary: "Combining the Ship of Theseus with the Ralph Loop, I ran an AI agent in a loop substituting one ingredient at a time in a chili recipe until the AI itself declared it was no longer chili."
 tags:
-  - vibe coding
+  - agentic coding
 ---
 
 ## Recipe of Theseus

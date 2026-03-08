@@ -7,7 +7,7 @@ layout: post
 slug: ai-strong-style-pairing
 summary: "Strong-style pairing asks the driver to become a 'dumb keyboard' for the navigator's ideas. AI coding agents have made that literal. But is a compliant typist really what makes great software?"
 tags:
-  - vibe coding
+  - agentic coding
   - agile
   - xp
 ---
