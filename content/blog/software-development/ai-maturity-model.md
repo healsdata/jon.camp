@@ -1,5 +1,5 @@
 ---
-title: "A So-Called AI Naturity Model"
+title: "A So-Called AI Maturity Model"
 date: 2026-02-24T09:00:00-05:00
 lastmod: 2026-03-08T12:00:00-05:00
 author: Jon
