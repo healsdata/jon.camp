@@ -1,5 +1,5 @@
 ---
-title: "AI vs. WIP: Your Brain Is Also a Bottleneck"
+title: "[DRAFT] AI vs. WIP: Your Brain Is Also a Bottleneck"
 date: 2026-03-20T09:00:00-05:00
 author: Jon
 layout: post

@@ -1,5 +1,5 @@
 ---
-title: "AI vs. WIP: The Invisible Inventory Problem"
+title: "[DRAFT] AI vs. WIP: The Invisible Inventory Problem"
 date: 2026-03-18T09:00:00-05:00
 author: Jon
 layout: post

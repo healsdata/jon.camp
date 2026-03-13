@@ -1,5 +1,5 @@
 ---
-title: "AI vs. WIP: Jevons Was Here First"
+title: "[DRAFT] AI vs. WIP: Jevons Was Here First"
 date: 2026-03-16T09:00:00-05:00
 author: Jon
 layout: post

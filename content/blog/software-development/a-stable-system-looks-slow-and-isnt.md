@@ -1,5 +1,5 @@
 ---
-title: "AI vs. WIP: A Stable System Looks Slow and Isn't"
+title: "[DRAFT] AI vs. WIP: A Stable System Looks Slow and Isn't"
 date: 2026-03-30T09:00:00-05:00
 author: Jon
 layout: post

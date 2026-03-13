@@ -1,5 +1,5 @@
 ---
-title: "AI vs. WIP: Sustainable Pace Isn't a Soft Idea"
+title: "[DRAFT] AI vs. WIP: Sustainable Pace Isn't a Soft Idea"
 date: 2026-03-23T09:00:00-05:00
 author: Jon
 layout: post

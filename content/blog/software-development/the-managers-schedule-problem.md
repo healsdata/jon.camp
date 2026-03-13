@@ -1,5 +1,5 @@
 ---
-title: "AI vs. WIP: The Manager's Schedule Problem"
+title: "[DRAFT] AI vs. WIP: The Manager's Schedule Problem"
 date: 2026-03-27T09:00:00-05:00
 author: Jon
 layout: post
