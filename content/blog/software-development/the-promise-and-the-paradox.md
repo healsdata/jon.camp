@@ -1,6 +1,7 @@
 ---
 title: "AI vs. WIP: The Promise and the Paradox"
 date: 2026-03-09T09:00:00-05:00
+lastmod: 2026-03-21T12:09:00-05:00
 author: Jon
 layout: post
 slug: the-promise-and-the-paradox
@@ -12,7 +13,7 @@ tags:
 summary: "AI coding tools generate more code and more rollbacks at the same time. Before assuming adoption is the problem, it's worth asking whether something about how we're thinking about these tools makes these results predictable."
 ---
 
-*First post in a ten-part [series on agentic coding and WIP management](/tags/ai-vs-wip/).*
+*First post in a seven-part [series on agentic coding and WIP management](/tags/ai-vs-wip/).*
 
 According to Google's DORA 2025 report[^1], 90% of developers report using AI coding tools at work and more than 80% say those tools boosted their productivity. However, the same data shows that software delivery instability went up over the same period. A whitepaper from Multitudes, analyzing data from 500+ software teams[^2], found that developers using AI merged 27.2% more pull requests. They also logged a 19.6% rise in after-hours commits. 
 

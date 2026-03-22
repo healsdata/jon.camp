@@ -1,6 +1,7 @@
 ---
 title: "AI vs. WIP: You Can't Outrun Your Bottleneck"
 date: 2026-03-11T09:00:00-05:00
+lastmod: 2026-03-21T12:11:00-05:00
 author: Jon
 layout: post
 slug: you-cant-outrun-your-bottleneck
@@ -12,7 +13,7 @@ tags:
 summary: "Goldratt's rule: never optimize a non-constraint. In agentic coding, code generation isn't the bottleneck. Human review is. Adding more agents just grows the queue."
 ---
 
-*Part two of ten in a [series on agentic coding and WIP management](/tags/ai-vs-wip/).*
+*Part two of seven in a [series on agentic coding and WIP management](/tags/ai-vs-wip/).*
 
 [![Compiling](https://imgs.xkcd.com/comics/compiling.png)](https://xkcd.com/303/)
 

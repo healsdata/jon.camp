@@ -1,6 +1,7 @@
 ---
 title: "AI vs. WIP: The Physics of WIP"
 date: 2026-03-13T09:00:00-05:00
+lastmod: 2026-03-21T12:13:00-05:00
 author: Jon
 layout: post
 slug: the-physics-of-wip
@@ -12,7 +13,7 @@ tags:
 summary: "Little's Law has been describing software team behavior since 1961. Agentic coding violates the precondition the law requires, and the rollback data is what that looks like in practice."
 ---
 
-*Part three of ten in a [series on agentic coding and WIP management](/tags/ai-vs-wip/).*
+*Part three of seven in a [series on agentic coding and WIP management](/tags/ai-vs-wip/).*
 
 In 1961, John D.C. Little proved a relationship that holds across any stable queuing system[^1]: **Cycle time equals WIP divided by throughput**. If your team completes 10 pull requests per week and you have 50 open, the average age of a PR in your system is five weeks. Not because anyone is lazy. Because that's what the math says.
 

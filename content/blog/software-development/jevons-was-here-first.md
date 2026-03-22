@@ -1,6 +1,7 @@
 ---
 title: "AI vs. WIP: Jevons Was Here First"
 date: 2026-03-16T09:00:00-05:00
+lastmod: 2026-03-21T12:16:00-05:00
 author: Jon
 layout: post
 slug: jevons-was-here-first
@@ -12,7 +13,7 @@ tags:
 summary: "William Stanley Jevons showed in 1865 that more efficient steam engines led to England burning more coal, not less. The same mechanism is running through AI coding adoption right now."
 ---
 
-*Part four of ten in a [series on agentic coding and WIP management](/tags/ai-vs-wip/).*
+*Part four of seven in a [series on agentic coding and WIP management](/tags/ai-vs-wip/).*
 
 In 1865, the economist William Stanley Jevons noticed something uncomfortable[^1]: As steam engines became more fuel-efficient, England burned more coal, not less. Cheaper energy per unit of output unlocked applications that hadn't been economically viable before. Aggregate coal demand went up. In the same vein, more fuel-efficient cars led to more driving. Higher-yield crops led to more land cleared for farming.
 
