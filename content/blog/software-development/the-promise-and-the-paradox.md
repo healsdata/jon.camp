@@ -1,7 +1,6 @@
 ---
 title: "AI vs. WIP: The Promise and the Paradox"
 date: 2026-03-09T09:00:00-05:00
-lastmod: 2026-03-21T12:09:00-05:00
 author: Jon
 layout: post
 slug: the-promise-and-the-paradox

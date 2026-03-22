@@ -1,7 +1,6 @@
 ---
 title: "AI vs. WIP: Invisible Inventory and Cognitive Limits"
 date: 2026-03-18T09:00:00-05:00
-lastmod: 2026-03-21T12:18:00-05:00
 author: Jon
 layout: post
 slug: invisible-inventory-and-cognitive-limits

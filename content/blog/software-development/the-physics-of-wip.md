@@ -1,7 +1,6 @@
 ---
 title: "AI vs. WIP: The Physics of WIP"
 date: 2026-03-13T09:00:00-05:00
-lastmod: 2026-03-21T12:13:00-05:00
 author: Jon
 layout: post
 slug: the-physics-of-wip

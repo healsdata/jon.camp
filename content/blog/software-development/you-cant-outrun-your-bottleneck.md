@@ -1,7 +1,6 @@
 ---
 title: "AI vs. WIP: You Can't Outrun Your Bottleneck"
 date: 2026-03-11T09:00:00-05:00
-lastmod: 2026-03-21T12:11:00-05:00
 author: Jon
 layout: post
 slug: you-cant-outrun-your-bottleneck

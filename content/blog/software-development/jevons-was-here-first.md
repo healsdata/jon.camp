@@ -1,7 +1,6 @@
 ---
 title: "AI vs. WIP: Jevons Was Here First"
 date: 2026-03-16T09:00:00-05:00
-lastmod: 2026-03-21T12:16:00-05:00
 author: Jon
 layout: post
 slug: jevons-was-here-first

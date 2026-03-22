@@ -6,3 +6,5 @@ resources/
 .idea
 *.http
 .claude/*.local.*
+.claude/agents/
+.claude/agent-memory/
