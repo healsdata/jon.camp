@@ -464,6 +464,12 @@ a:hover {
   background-color: var(--color-bg);
 }
 
+.post-comments {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-border);
+}
+
 /* ===== More Link ===== */
 .more-link {
   text-align: center;
