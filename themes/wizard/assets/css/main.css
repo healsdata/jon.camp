@@ -76,7 +76,7 @@ a:hover {
 .header-identity {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 1rem;
   min-width: 0;
 }
 
@@ -88,6 +88,7 @@ a:hover {
 }
 
 .header-photo {
+  display: block;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -759,6 +760,10 @@ a:hover {
     display: block;
     margin: 0 auto 1rem auto;
   }
+
+  .full-form {
+    display: none;
+  }  
 }
 
 /* ===== Figure/Figcaption ===== */
