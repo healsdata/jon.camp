@@ -21,7 +21,9 @@ When the user invokes this skill with a URL and optional saved date:
    - Date is the saved-date if provided, otherwise today's date
    - Slug is derived from the title (lowercase, hyphens, no special chars)
 
-3. The file should have this structure:
+3. Write the summary yourself directly — do NOT use the sarcastic-tech-blogger subagent or any other subagent. The summary should be neutral and descriptive, not opinionated.
+
+4. The file should have this structure:
    ```
    ---
    title: "The extracted title"
@@ -33,6 +35,6 @@ When the user invokes this skill with a URL and optional saved date:
    The 2-3 sentence summary from the fetch.
    ```
 
-4. After creating the file, let the user know it was added and show them the title and summary.
+5. After creating the file, let the user know it was added and show them the title and summary.
 
-5. If the user wants to tweak the title or summary, help them edit it.
+6. If the user wants to tweak the title or summary, help them edit it.
