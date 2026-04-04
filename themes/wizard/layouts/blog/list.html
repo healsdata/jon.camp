@@ -1,39 +1,26 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
 
-  {{/* Category filter */}}
+  {{- $isSubsection := eq .Parent.Section "blog" }}
+  {{- $allSections := cond $isSubsection .Parent.Sections .Sections }}
+  {{- $allPermalink := cond $isSubsection .Parent.RelPermalink .RelPermalink }}
+
   <div class="blog-filter">
     <label for="category-select">Category:</label>
-    <select id="category-select">
-      <option value="all">All</option>
-      {{ range .Sections }}
-      <option value="{{ .Title | urlize }}">{{ .Title }}</option>
+    <select id="category-select" onchange="window.location = this.value;">
+      <option value="{{ $allPermalink }}"{{ if not $isSubsection }} selected{{ end }}>All</option>
+      {{ range $allSections }}
+      <option value="{{ .RelPermalink }}"{{ if eq $.RelPermalink .RelPermalink }} selected{{ end }}>{{ .Title }}</option>
       {{ end }}
     </select>
   </div>
 
-  {{/* List all posts from all categories */}}
+  {{- $paginator := .Paginate (sort .RegularPagesRecursive ".Lastmod" "desc") }}
   <div class="blog-posts">
-    {{ range sort .RegularPagesRecursive ".Lastmod" "desc" }}
+    {{ range $paginator.Pages }}
       {{ partial "post-card.html" . }}
     {{ end }}
   </div>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const select = document.getElementById('category-select');
-      const posts = document.querySelectorAll('.post-card');
-
-      select.addEventListener('change', function() {
-        const category = this.value;
-        posts.forEach(post => {
-          if (category === 'all' || post.dataset.category === category) {
-            post.style.display = '';
-          } else {
-            post.style.display = 'none';
-          }
-        });
-      });
-    });
-  </script>
+  {{ template "_internal/pagination.html" . }}
 {{ end }}

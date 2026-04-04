@@ -1,5 +1,5 @@
 ---
-title: "Recent Readings"
+title: "Links"
 outputs:
   - HTML
 ---

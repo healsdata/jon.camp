@@ -13,10 +13,27 @@
   </div>
   {{ end }}
 
-  {{ .Content }}
-  {{ range sort .Pages ".Lastmod" "desc" }}
-    {{ partial "post-card.html" . }}
+  {{ if eq .Section "blog" }}
+    {{- $blogPage := .Parent }}
+    <div class="blog-filter">
+      <label for="category-select">Category:</label>
+      <select id="category-select" onchange="window.location = this.value;">
+        <option value="{{ $blogPage.RelPermalink }}">All</option>
+        {{ range $blogPage.Sections }}
+        <option value="{{ .RelPermalink }}"{{ if eq $.RelPermalink .RelPermalink }} selected{{ end }}>{{ .Title }}</option>
+        {{ end }}
+      </select>
+    </div>
   {{ end }}
 
-  <p class="more-link"><a href="/blog/">&larr; Back to Blog</a></p>
+  {{ .Content }}
+
+  {{- $paginator := .Paginate (sort .Pages ".Lastmod" "desc") }}
+  <div class="blog-posts">
+    {{ range $paginator.Pages }}
+      {{ partial "post-card.html" . }}
+    {{ end }}
+  </div>
+
+  {{ template "_internal/pagination.html" . }}
 {{ end }}
