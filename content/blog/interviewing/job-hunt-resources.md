@@ -4,7 +4,6 @@ date: 2024-02-16T23:14:51-05:00
 lastmod: 2026-02-07T16:30:00-05:00
 author: Jon
 layout: post
-pinned: true
 summary: "Curated job search resources from someone who has been on both sides of the interview table, including lesser-known job boards, trusted Philadelphia-area recruiters, and resume advice that still holds up decades later."
 tags:
   - recommendations

@@ -1,45 +1,59 @@
 {{ define "main" }}
   {{- $posts := where site.RegularPages "Section" "!=" "links" }}
-  {{- $pinned := where $posts ".Params.pinned" true }}
-  {{- $notPinned := where $posts ".Params.pinned" "!=" true }}
-  {{- $recent := sort $notPinned ".Lastmod" "desc" | first 5 }}
+  {{- $newestPost := index (sort $posts ".Date" "desc") 0 }}
   {{- $links := where site.RegularPages "Section" "links" }}
+  {{- $postsWithout := complement (slice $newestPost) $posts }}
+  {{- $topPosts := sort $postsWithout ".Date" "desc" | first 10 }}
+  {{- $topLinks := sort $links ".Date" "desc" | first 10 }}
+  {{- $merged := union $topPosts $topLinks }}
+  {{- $combined := sort $merged ".Date" "desc" }}
 
-  <div class="homepage-layout">
-    <div class="homepage-main">
-      <section class="homepage-writings">
-        <h2>Stuff I wrote...</h2>
-
-      {{- range $pinned }}
-        {{ partial "post-card.html" . }}
-      {{- end }}
-        {{- range $recent }}
-          {{ partial "post-card.html" . }}
-        {{- end }}
-        <p class="more-link"><a href="/blog/">More &rarr;</a></p>
-      </section>
-
-    </div>
-
-    {{- if $links }}
-    <aside class="readings-sidebar">
-      <h2>Stuff I read...</h2>
-      <div class="readings-list">
-        {{- range sort $links ".Date" "desc" | first 5 }}
-          <article class="reading-item">
-            <a href="{{ .Params.link }}" target="_blank" rel="noopener" class="reading-title">{{ .Title }}</a>
-            <span class="reading-domain">{{ with urls.Parse .Params.link }}{{ .Host }}{{ end }}</span>
-            <div class="reading-summary">{{ .Content }}</div>
-          </article>
-        {{- end }}
-      </div>
-      <p class="more-link"><a href="/links/">More &rarr;</a></p>
-    </aside>
-    {{- end }}
+  <div class="homepage-filter">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="post">Posts</button>
+    <button class="filter-btn" data-filter="link">Links</button>
   </div>
 
-  <aside class="homepage-footnote">
-    <p>I'm bad at remembering to finish blog posts. I have a lot of ideas that never get past the first draft stage. I've decided to share drafts here, marked with <strong>[DRAFT]</strong> in the title until they're done.
-    This allows me to share things I currently find interesting and update them when I learn something new.</p>
-  </aside>
+  <div class="homepage-feed">
+    {{- with $newestPost }}
+      {{ partial "post-card.html" (dict "Page" . "newest" true) }}
+    {{- end }}
+
+    {{- range $i, $item := $combined }}
+      {{ partial "post-card.html" (dict "Page" $item "combinedIndex" (add $i 1)) }}
+    {{- end }}
+
+    <div class="feed-more-links">
+      <a href="/blog/">More Posts &rarr;</a>
+      <a href="/links/">More Links &rarr;</a>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const buttons = document.querySelectorAll('.filter-btn');
+      const cards = document.querySelectorAll('.homepage-feed .post-card');
+
+      function applyFilter(filter) {
+        cards.forEach(function (card) {
+          if (filter === 'all') {
+            const idx = parseInt(card.dataset.combinedIndex || '0');
+            card.style.display = (idx === 0 || idx <= 10) ? '' : 'none';
+          } else {
+            card.style.display = card.dataset.type === filter ? '' : 'none';
+          }
+        });
+      }
+
+      buttons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          buttons.forEach(function (b) { b.classList.remove('active'); });
+          btn.classList.add('active');
+          applyFilter(btn.dataset.filter);
+        });
+      });
+
+      applyFilter('all');
+    });
+  </script>
 {{ end }}

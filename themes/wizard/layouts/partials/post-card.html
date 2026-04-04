@@ -1,26 +1,63 @@
-{{- /* Post card partial - expects a page context */ -}}
-<article class="post-card{{ if .Params.pinned }} pinned{{ end }}" {{ with .CurrentSection }}data-category="{{ .Title | urlize }}"{{ end }}>
+{{- /* Post card partial - accepts a page context or dict{Page, newest} */ -}}
+{{- $page := . }}
+{{- $newest := false }}
+{{- $combinedIndex := 0 }}
+{{- if reflect.IsMap . }}
+  {{- $page = .Page }}
+  {{- $newest = .newest }}
+  {{- $combinedIndex = .combinedIndex }}
+{{- end }}
+{{- $isLink := $page.Params.link }}
+{{- $url := $page.RelPermalink }}
+{{- if $isLink }}{{ $url = $page.Params.link }}{{ end }}
+<article class="post-card{{ if $newest }} newest{{ end }}" data-type="{{ if $isLink }}link{{ else }}post{{ end }}"{{ if $combinedIndex }} data-combined-index="{{ $combinedIndex }}"{{ end }}{{ if not $isLink }} {{ with $page.CurrentSection }}data-category="{{ .Title | urlize }}"{{ end }}{{ end }}>
   <h2 class="post-card-title">
-    {{- if .Params.pinned }}<svg class="pin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M16 12V4h1V2H7v2h1v8l-2 2v2h5.2v6h1.6v-6H18v-2l-2-2z"/></svg>{{ end -}}
-    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{- if $newest -}}
+      <svg class="card-type-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 17v5"/><path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H8a2 2 0 0 0 0 4 1 1 0 0 1 1 1z"/></svg>
+    {{- else if $isLink -}}
+      <svg class="card-type-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+    {{- else -}}
+      <svg class="card-type-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4"/><path d="M2 6h4"/><path d="M2 10h4"/><path d="M2 14h4"/><path d="M2 18h4"/><path d="M21.378 5.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"/></svg>
+    {{- end -}}
+    <a href="{{ $url }}"{{ if $isLink }} target="_blank" rel="noopener"{{ end }}>{{ $page.LinkTitle }}</a>
   </h2>
   <div class="post-card-meta">
-    {{- $hasUpdate := ne (.Date.Format "2006-01-02") (.Lastmod.Format "2006-01-02") }}
-    {{- $displayDate := cond $hasUpdate .Lastmod .Date }}
-    {{- $dateMachine := $displayDate | time.Format "2006-01-02T15:04:05-07:00" }}
-    {{- $dateHuman := $displayDate | time.Format "Jan 2, 2006" }}
-    <span class="date-display{{ if $hasUpdate }} has-update{{ end }}">
-      <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-      {{- if $hasUpdate }}
-      <span class="date-tooltip">
-        <span class="date-created">Created {{ .Date | time.Format "Jan 2, 2006" }}</span>
-        <span class="date-updated">Updated {{ .Lastmod | time.Format "Jan 2, 2006" }}</span>
-      </span>
+    {{- if $isLink }}
+      <span class="post-card-domain">{{ with urls.Parse $url }}{{ .Host }}{{ end }}</span>
+      {{- $hasPublished := false }}
+      {{- with $page.Params.published }}
+        {{- $hasPublished = ne ($page.Date.Format "2006-01-02") (. | time.Format "2006-01-02") }}
       {{- end }}
-    </span>
+      <span class="date-display{{ if $hasPublished }} has-update{{ end }}">
+        <time datetime="{{ $page.Date | time.Format "2006-01-02T15:04:05-07:00" }}">{{ $page.Date | time.Format "Jan 2, 2006" }}</time>
+        {{- if $hasPublished }}
+        <span class="date-tooltip">
+          <span class="date-created">Published {{ $page.Params.published | time.Format "Jan 2, 2006" }}</span>
+          <span class="date-updated">Added {{ $page.Date | time.Format "Jan 2, 2006" }}</span>
+        </span>
+        {{- end }}
+      </span>
+    {{- else }}
+      <span class="post-card-domain">jon.camp</span>
+      {{- $hasUpdate := ne ($page.Date.Format "2006-01-02") ($page.Lastmod.Format "2006-01-02") }}
+      {{- $displayDate := cond $hasUpdate $page.Lastmod $page.Date }}
+      {{- $dateMachine := $displayDate | time.Format "2006-01-02T15:04:05-07:00" }}
+      {{- $dateHuman := $displayDate | time.Format "Jan 2, 2006" }}
+      <span class="date-display{{ if $hasUpdate }} has-update{{ end }}">
+        <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+        {{- if $hasUpdate }}
+        <span class="date-tooltip">
+          <span class="date-created">Created {{ $page.Date | time.Format "Jan 2, 2006" }}</span>
+          <span class="date-updated">Updated {{ $page.Lastmod | time.Format "Jan 2, 2006" }}</span>
+        </span>
+        {{- end }}
+      </span>
+    {{- end }}
   </div>
   <div class="post-card-excerpt">
-    {{ .Summary }}
+    {{ $page.Summary }}
   </div>
-  <a href="{{ .RelPermalink }}" class="post-card-read-more">Continue reading &rarr;</a>
+  {{- if not $isLink }}
+  <a href="{{ $url }}" class="post-card-read-more">Continue reading &rarr;</a>
+  {{- end }}
 </article>
