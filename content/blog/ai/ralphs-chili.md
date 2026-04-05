@@ -4,6 +4,8 @@ date: 2026-02-22T09:00:00-05:00
 author: Jon
 layout: post
 slug: ralphs-chili
+aliases:
+  - /software-development/ralphs-chili/
 summary: "Combining the Ship of Theseus with the Ralph Loop, I ran an AI agent in a loop substituting one ingredient at a time in a chili recipe until the AI itself declared it was no longer chili."
 tags:
   - agentic coding
