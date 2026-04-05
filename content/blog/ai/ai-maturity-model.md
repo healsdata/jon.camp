@@ -5,6 +5,8 @@ lastmod: 2026-03-08T12:00:00-05:00
 author: Jon
 layout: post
 slug: ai-maturity-model
+aliases:
+  - /software-development/ai-maturity-model/
 tags:
   - agentic coding
   - agile

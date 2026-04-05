@@ -4,6 +4,8 @@ date: 2026-03-23T09:00:00-05:00
 author: Jon
 layout: post
 slug: sustainable-pace-and-the-makers-schedule
+aliases:
+  - /software-development/sustainable-pace-and-the-makers-schedule/
 tags:
   - agentic coding
   - agile

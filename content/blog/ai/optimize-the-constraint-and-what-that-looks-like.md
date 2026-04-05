@@ -4,6 +4,8 @@ date: 2026-03-25T09:00:00-05:00
 author: Jon
 layout: post
 slug: optimize-the-constraint-and-what-that-looks-like
+aliases:
+  - /software-development/optimize-the-constraint-and-what-that-looks-like/
 tags:
   - agentic coding
   - lean

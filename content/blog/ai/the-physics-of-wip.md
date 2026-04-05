@@ -4,6 +4,8 @@ date: 2026-03-13T09:00:00-05:00
 author: Jon
 layout: post
 slug: the-physics-of-wip
+aliases:
+  - /software-development/the-physics-of-wip/
 tags:
   - agentic coding
   - lean

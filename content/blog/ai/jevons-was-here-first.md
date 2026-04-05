@@ -4,6 +4,8 @@ date: 2026-03-16T09:00:00-05:00
 author: Jon
 layout: post
 slug: jevons-was-here-first
+aliases:
+  - /software-development/jevons-was-here-first/
 tags:
   - agentic coding
   - ai

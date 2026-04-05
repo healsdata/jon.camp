@@ -4,6 +4,8 @@ date: 2026-03-09T09:00:00-05:00
 author: Jon
 layout: post
 slug: the-promise-and-the-paradox
+aliases:
+  - /software-development/the-promise-and-the-paradox/
 tags:
   - agentic coding
   - ai

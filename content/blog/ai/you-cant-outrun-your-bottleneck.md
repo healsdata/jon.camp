@@ -4,6 +4,8 @@ date: 2026-03-11T09:00:00-05:00
 author: Jon
 layout: post
 slug: you-cant-outrun-your-bottleneck
+aliases:
+  - /software-development/you-cant-outrun-your-bottleneck/
 tags:
   - agentic coding
   - lean

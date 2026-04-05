@@ -4,6 +4,8 @@ date: 2026-03-18T09:00:00-05:00
 author: Jon
 layout: post
 slug: invisible-inventory-and-cognitive-limits
+aliases:
+  - /software-development/invisible-inventory-and-cognitive-limits/
 tags:
   - agentic coding
   - lean
