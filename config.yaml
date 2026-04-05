@@ -17,7 +17,8 @@ params:
 
 copyright: This work is licensed under a Creative Commons Attribution 4.0 International license
 
-paginate: 10
+pagination:
+  pagerSize: 10
 publishDir: public
 permalinks:
   /: /:slug/
