@@ -1,7 +1,7 @@
 ---
 title: "Job Hunt Resources"
 date: 2024-02-16T23:14:51-05:00
-lastmod: 2026-02-07T16:30:00-05:00
+lastmod: 2026-04-21T00:00:00-05:00
 author: Jon
 layout: post
 summary: "Curated job search resources from someone who has been on both sides of the interview table, including lesser-known job boards, trusted Philadelphia-area recruiters, and resume advice that still holds up decades later."
@@ -21,9 +21,6 @@ There's a monthly thread on Hacker News where companies, mostly startups, can po
 
 ### [People-First Jobs](https://peoplefirstjobs.com/)
 A hand-curated list of companies and their current job posts. Updates arrive weekly in newsletter format. The curation focuses on companies with strong cultures and good work-life balance, so you're not just scrolling through the same mass postings you'd find elsewhere.
-
-### [4-day week](https://4dayweek.io/)
-As the name implies, they focus on companies that offer four-day work weeks. Sometimes at full salary, other times not. Even if you're not specifically hunting for a 4-day role, the companies listed here tend to prioritize employee wellbeing in other ways too.
 
 ## Recommended Recruiters
 ### [Liberty Jobs](https://libertyjobs.com/)
