@@ -1,10 +1,13 @@
 public/
 resources/
+archive/
+
 .vscode/
 *.orig
 .hugo_build.lock
 .idea
 *.http
+
 .claude/*.local.*
 .claude/agents/
 .claude/agent-memory/
