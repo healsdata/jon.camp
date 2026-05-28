@@ -5,9 +5,11 @@
 </head>
 <body>
   <div class="site-wrapper">
-    <header class="site-header">
-      {{ partial "sidebar.html" . }}
-    </header>
+    <aside class="site-sidebar">
+      <div class="site-sidebar-inner">
+        {{ partial "sidebar.html" . }}
+      </div>
+    </aside>
     <div class="main-content">
       <main>
         {{ block "main" . }}{{ end }}

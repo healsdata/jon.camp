@@ -1,59 +1,14 @@
 {{ define "main" }}
   {{- $posts := where site.RegularPages "Section" "!=" "links" }}
-  {{- $newestPost := index (sort $posts ".Date" "desc") 0 }}
-  {{- $links := where site.RegularPages "Section" "links" }}
-  {{- $postsWithout := complement (slice $newestPost) $posts }}
-  {{- $topPosts := sort $postsWithout ".Date" "desc" | first 10 }}
-  {{- $topLinks := sort $links ".Date" "desc" | first 10 }}
-  {{- $merged := union $topPosts $topLinks }}
-  {{- $combined := sort $merged ".Date" "desc" }}
-
-  <div class="homepage-filter">
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="post">Posts</button>
-    <button class="filter-btn" data-filter="link">Links</button>
-  </div>
+  {{- $recent := sort $posts ".Date" "desc" | first 5 }}
 
   <div class="homepage-feed">
-    {{- with $newestPost }}
-      {{ partial "post-card.html" (dict "Page" . "newest" true) }}
-    {{- end }}
-
-    {{- range $i, $item := $combined }}
-      {{ partial "post-card.html" (dict "Page" $item "combinedIndex" (add $i 1)) }}
+    {{- range $recent }}
+      {{ partial "post-card.html" (dict "Page" .) }}
     {{- end }}
 
     <div class="feed-more-links">
       <a href="/blog/">More Posts &rarr;</a>
-      <a href="/links/">More Links &rarr;</a>
     </div>
   </div>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const buttons = document.querySelectorAll('.filter-btn');
-      const cards = document.querySelectorAll('.homepage-feed .post-card');
-
-      function applyFilter(filter) {
-        cards.forEach(function (card) {
-          if (filter === 'all') {
-            const idx = parseInt(card.dataset.combinedIndex || '0');
-            card.style.display = (idx === 0 || idx <= 10) ? '' : 'none';
-          } else {
-            card.style.display = card.dataset.type === filter ? '' : 'none';
-          }
-        });
-      }
-
-      buttons.forEach(function (btn) {
-        btn.addEventListener('click', function () {
-          buttons.forEach(function (b) { b.classList.remove('active'); });
-          btn.classList.add('active');
-          applyFilter(btn.dataset.filter);
-        });
-      });
-
-      applyFilter('all');
-    });
-  </script>
 {{ end }}
