@@ -131,6 +131,12 @@ a:hover {
   color: var(--color-text-muted);
   margin: 0;
   line-height: 1.5;
+  text-align: justify;
+}
+
+.header-bio.quip {
+  text-align: center;
+  margin-top: 16px;
 }
 
 .header-links {
