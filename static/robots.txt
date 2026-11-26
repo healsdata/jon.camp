@@ -2,98 +2,2768 @@
 User-agent: img2dataset
 Disallow: /
 
+# Scraper
+# https://knownagents.com/agents/008
+
+User-agent: 008
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/a360-search
+
+User-agent: A360-Search
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/activecomply
+
+User-agent: ActiveComply
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/adagiobot
+
+User-agent: Adagiobot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/adbeat-bot
+
+User-agent: adbeat_bot
+Disallow: /
+
 # AI Search Crawler
-# https://darkvisitors.com/agents/amazonbot
+# https://knownagents.com/agents/addsearchbot
+
+User-agent: AddSearchBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/adidxbot
+
+User-agent: adidxbot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/adkerneltopiccrawler
+
+User-agent: AdkernelTopicCrawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/admantx
+
+User-agent: admantx
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/admixerbot
+
+User-agent: AdmixerBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/adpresearchbot
+
+User-agent: AdpResearchBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/adsbot-google
+
+User-agent: AdsBot-Google
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/adsbot-google-mobile
+
+User-agent: AdsBot-Google-Mobile
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/adstxtcrawler
+
+User-agent: AdsTxtCrawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/affsignalcrawler
+
+User-agent: AffsignalCrawler
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/agentdatabot
+
+User-agent: AgentDataBot
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/agi-agent
+
+User-agent: AGI Agent
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/ai2bot
+
+User-agent: AI2Bot
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/ai2bot-deepresearcheval
+
+User-agent: AI2Bot-DeepResearchEval
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/ai2bot-dolma
+
+User-agent: Ai2Bot-Dolma
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/aihitbot
+
+User-agent: aiHitBot
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/aiwebindex
+
+User-agent: AIWebIndex
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/aiwebindex-agent
+
+User-agent: AIWebIndex-Agent
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/amazing-searchbot
+
+User-agent: Amazing-SearchBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/amazingtest-searchbot
+
+User-agent: AmazingTest-SearchBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/amazon-adbot
+
+User-agent: Amazon AdBot
+Disallow: /
+
+# Automated Agent
+# https://knownagents.com/agents/amazon-bedrock-agentcore-browser
+
+User-agent: Amazon Bedrock AgentCore Browser
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/amazon-advertising-ad-standards-bot
+
+User-agent: Amazon-Advertising-ad-standards-bot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/amazon-bedrock-knowledgebase
+
+User-agent: amazon-bedrock-knowledgebase
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/amazon-kendra
+
+User-agent: amazon-kendra
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/amazon-qbusiness
+
+User-agent: amazon-QBusiness
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/amazon-quick
+
+User-agent: amazon-Quick
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/amazonadbot
+
+User-agent: AmazonAdBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/amazonbot
 
 User-agent: Amazonbot
 Disallow: /
 
+# AI Agent
+# https://knownagents.com/agents/amazonbuyforme
+
+User-agent: AmazonBuyForMe
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/amazonproductdiscovery
+
+User-agent: AmazonProductDiscovery
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/amzn-searchbot
+
+User-agent: Amzn-SearchBot
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/amzn-user
+
+User-agent: Amzn-User
+Disallow: /
+
+# Automated Agent
+# https://knownagents.com/agents/anchor-browser
+
+User-agent: Anchor Browser
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/anderspinkbot
+
+User-agent: AndersPinkBot
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/andiagent
+
+User-agent: AndiAgent
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/andibot
+
+User-agent: AndiBot
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/anomura
+
+User-agent: Anomura
+Disallow: /
+
 # Undocumented AI Agent
-# https://darkvisitors.com/agents/anthropic-ai
+# https://knownagents.com/agents/anthropic-ai
 
 User-agent: anthropic-ai
 Disallow: /
 
+# AI Data Provider
+# https://knownagents.com/agents/apifybot
+
+User-agent: ApifyBot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/apifywebsitecontentcrawler
+
+User-agent: ApifyWebsiteContentCrawler
+Disallow: /
+
 # AI Search Crawler
-# https://darkvisitors.com/agents/applebot
+# https://knownagents.com/agents/applebot
 
 User-agent: Applebot
 Disallow: /
 
 # AI Data Scraper
-# https://darkvisitors.com/agents/bytespider
+# https://knownagents.com/agents/applebot-extended
+
+User-agent: Applebot-Extended
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/aranet-searchbot
+
+User-agent: Aranet-SearchBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/archivebot
+
+User-agent: ArchiveBot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/artsdata-crawler
+
+User-agent: artsdata-crawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/assaybot
+
+User-agent: Assaybot
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/atlassian-bot
+
+User-agent: atlassian-bot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/audigentadbot
+
+User-agent: AudigentAdBot
+Disallow: /
+
+# AI Coding Agent
+# https://knownagents.com/agents/augment-webfetch
+
+User-agent: Augment-WebFetch
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/automattic-analytics-crawler
+
+User-agent: Automattic Analytics Crawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/autotouchcompanycrawler
+
+User-agent: AutotouchCompanyCrawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/awario
+
+User-agent: Awario
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/awariobot
+
+User-agent: AwarioBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/awariosmartbot
+
+User-agent: AwarioSmartBot
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/azureai-searchbot
+
+User-agent: AzureAI-SearchBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/beansllm-corpusbot
+
+User-agent: BeansLLM-CorpusBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/bedrockbot
+
+User-agent: bedrockbot
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/bigsur-ai
+
+User-agent: bigsur.ai
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/bigupdatabot
+
+User-agent: BigUpDataBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/bing-ads
+
+User-agent: Bing Ads
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/bitsightbot
+
+User-agent: BitSightBot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/bixelbot
+
+User-agent: BixelBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/blackboard
+
+User-agent: Blackboard
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/bomborabot
+
+User-agent: BomboraBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/brandverity
+
+User-agent: BrandVerity
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/bravebot
+
+User-agent: Bravebot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/brightbot
+
+User-agent: Brightbot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/brightedge-bot
+
+User-agent: BrightEdge Bot
+Disallow: /
+
+# Automated Agent
+# https://knownagents.com/agents/browserbase
+
+User-agent: Browserbase
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/buck
+
+User-agent: Buck
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/builtwith
+
+User-agent: BuiltWith
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/bytespider
 
 User-agent: Bytespider
 Disallow: /
 
+# Intelligence Gatherer
+# https://knownagents.com/agents/candidorgwebcheck
+
+User-agent: CandidOrgWebCheck
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/captify-crawler
+
+User-agent: captify-crawler
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/cartai-agentic-commerce
+
+User-agent: CartAI Agentic Commerce
+Disallow: /
+
 # AI Data Scraper
-# https://darkvisitors.com/agents/ccbot
+# https://knownagents.com/agents/ccbot
 
 User-agent: CCBot
 Disallow: /
 
+# Intelligence Gatherer
+# https://knownagents.com/agents/centryx-domain-mill
+
+User-agent: centryx-domain-mill
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/channable
+
+User-agent: channable
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/channel3bot
+
+User-agent: Channel3Bot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/chatglm-spider
+
+User-agent: ChatGLM-Spider
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/chatgpt-agent
+
+User-agent: ChatGPT Agent
+Disallow: /
+
 # AI Assistant
-# https://darkvisitors.com/agents/chatgpt-user
+# https://knownagents.com/agents/chatgpt-user
 
 User-agent: ChatGPT-User
 Disallow: /
 
+# Intelligence Gatherer
+# https://knownagents.com/agents/checkmarknetwork
+
+User-agent: CheckMarkNetwork
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/cincraw
+
+User-agent: Cincraw
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/claude-agent
+
+User-agent: Claude-Agent
+Disallow: /
+
+# AI Coding Agent
+# https://knownagents.com/agents/claude-code
+
+User-agent: Claude-Code
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/claude-searchbot
+
+User-agent: Claude-SearchBot
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/claude-user
+
+User-agent: Claude-User
+Disallow: /
+
 # Undocumented AI Agent
-# https://darkvisitors.com/agents/claude-web
+# https://knownagents.com/agents/claude-web
 
 User-agent: Claude-Web
 Disallow: /
 
 # AI Data Scraper
-# https://darkvisitors.com/agents/claudebot
+# https://knownagents.com/agents/claudebot
 
 User-agent: ClaudeBot
 Disallow: /
 
+# AI Agent
+# https://knownagents.com/agents/cledarabot
+
+User-agent: CledaraBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/clickagy-intelligence-bot
+
+User-agent: Clickagy Intelligence Bot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/clickagy-intelligence-bot-v2
+
+User-agent: Clickagy Intelligence Bot v2
+Disallow: /
+
+# Automated Agent
+# https://knownagents.com/agents/cloudflare-browser-rendering
+
+User-agent: Cloudflare Browser Rendering
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/cloudflare-ai-search
+
+User-agent: Cloudflare-AI-Search
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/cloudflare-ai-search-external
+
+User-agent: Cloudflare-AI-Search-External
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/cloudflarebrowserrenderingcrawler
+
+User-agent: CloudflareBrowserRenderingCrawler
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/cloudvertexbot
+
+User-agent: CloudVertexBot
+Disallow: /
+
+# AI Coding Agent
+# https://knownagents.com/agents/code
+
+User-agent: Code
+Disallow: /
+
+# AI Coding Agent
+# https://knownagents.com/agents/codex
+
+User-agent: Codex
+Disallow: /
+
 # Undocumented AI Agent
-# https://darkvisitors.com/agents/cohere-ai
+# https://knownagents.com/agents/cohere-ai
 
 User-agent: cohere-ai
 Disallow: /
 
 # AI Data Scraper
-# https://darkvisitors.com/agents/diffbot
+# https://knownagents.com/agents/cohere-training-data-crawler
+
+User-agent: cohere-training-data-crawler
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/coherebot
+
+User-agent: CohereBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/companymapbot
+
+User-agent: CompanyMapBot
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/context7-crawler
+
+User-agent: Context7-Crawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/contextualbot
+
+User-agent: ContextualBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/contextwebcom-adstxt
+
+User-agent: ContextWebCom-AdsTxt
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/contxbot
+
+User-agent: contxbot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/cotoyogi
+
+User-agent: Cotoyogi
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/cragcrawler
+
+User-agent: CragCrawler
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/crawl4ai
+
+User-agent: Crawl4AI
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/crawlspace
+
+User-agent: Crawlspace
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/criteobot
+
+User-agent: CriteoBot
+Disallow: /
+
+# AI Coding Agent
+# https://knownagents.com/agents/cursor
+
+User-agent: Cursor
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/cxensebot
+
+User-agent: cXensebot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/cypressgrowthdiligence
+
+User-agent: CypressGrowthDiligence
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/dataprovider
+
+User-agent: Dataprovider
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/dataprovider-com
+
+User-agent: Dataprovider.com
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/datenbank-crawler
+
+User-agent: Datenbank Crawler
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/dcrawl
+
+User-agent: dcrawl
+Disallow: /
+
+# AI Coding Agent
+# https://knownagents.com/agents/deepseek-harness
+
+User-agent: deepseek-harness
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/deepseekbot
+
+User-agent: DeepSeekBot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/desearchbot
+
+User-agent: DesearchBot
+Disallow: /
+
+# AI Coding Agent
+# https://knownagents.com/agents/devin
+
+User-agent: Devin
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/diffbot
 
 User-agent: Diffbot
 Disallow: /
 
+# AI Assistant
+# https://knownagents.com/agents/diffbot-user
+
+User-agent: Diffbot-User
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/digitaloceangradientaicrawler
+
+User-agent: DigitalOceanGradientAICrawler
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/dola-searchbot
+
+User-agent: Dola-SearchBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/domaindrift
+
+User-agent: DomainDrift
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/dot
+
+User-agent: Dot
+Disallow: /
+
 # AI Data Scraper
-# https://darkvisitors.com/agents/facebookbot
+# https://knownagents.com/agents/doubaobot
+
+User-agent: Doubaobot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/dragonfly
+
+User-agent: Dragonfly
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/ds9
+
+User-agent: ds9
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/duckassistbot
+
+User-agent: DuckAssistBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/dvbot
+
+User-agent: DVbot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/dwelltime-bot
+
+User-agent: dwelltime-bot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/echobot-bot
+
+User-agent: Echobot Bot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/ecovadissustainabilitybot
+
+User-agent: EcoVadisSustainabilityBot
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/element451bot
+
+User-agent: Element451Bot
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/elevenlabsbot
+
+User-agent: ElevenlabsBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/elevenlabscrawler
+
+User-agent: ElevenlabsCrawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/epivozcrawler
+
+User-agent: EpivozCrawler
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/erniebot
+
+User-agent: ERNIEBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/ev-crawler
+
+User-agent: ev-crawler
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/exabot
+
+User-agent: ExaBot
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/exasearchbot
+
+User-agent: ExaSearchBot
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/exauser
+
+User-agent: ExaUser
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/ezlynx
+
+User-agent: EzLynx
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/ezoicbot
+
+User-agent: EzoicBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/ezoicbot-nicheiq
+
+User-agent: EzoicBot-Nicheiq
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/facebookbot
 
 User-agent: FacebookBot
 Disallow: /
 
+# Intelligence Gatherer
+# https://knownagents.com/agents/factset-spyderbot
+
+User-agent: Factset_spyderbot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/fdl-stats-bot
+
+User-agent: FDL Stats Bot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/fedicabot
+
+User-agent: Fedicabot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/firecrawlagent
+
+User-agent: FirecrawlAgent
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/firmcredbot
+
+User-agent: FirmCredBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/flowiqlabsbot
+
+User-agent: FlowIQLabsBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/forestengine
+
+User-agent: ForestEngine
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/geisthaus-pagefetcher
+
+User-agent: GeistHaus-PageFetcher
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/gemini-deep-research
+
+User-agent: Gemini-Deep-Research
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/getdomaindata
+
+User-agent: getdomaindata
+Disallow: /
+
+# AI Coding Agent
+# https://knownagents.com/agents/githubcopilotruntime-webfetch
+
+User-agent: GitHubCopilotRuntime-WebFetch
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/globradarbot
+
+User-agent: GlobRadarBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/gnowitnewsbot
+
+User-agent: GnowitNewsbot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/google-adsbot
+
+User-agent: Google AdsBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/google-adsense
+
+User-agent: Google AdSense
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/google-adstxt
+
+User-agent: Google-adstxt
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/google-adwords-instant
+
+User-agent: Google-Adwords-Instant
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/google-agent
+
+User-agent: Google-Agent
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/google-cloudvertexbot
+
+User-agent: Google-CloudVertexBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/google-display-ads-bot
+
+User-agent: Google-Display-Ads-Bot
+Disallow: /
+
 # AI Data Scraper
-# https://darkvisitors.com/agents/google-extended
+# https://knownagents.com/agents/google-extended
 
 User-agent: Google-Extended
 Disallow: /
 
+# AI Coding Agent
+# https://knownagents.com/agents/google-gemini-cli
+
+User-agent: Google-Gemini-CLI
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/google-gemininotebook
+
+User-agent: Google-GeminiNotebook
+Disallow: /
+
+# AI Coding Agent
+# https://knownagents.com/agents/google-jetski-antigravity
+
+User-agent: Google-Jetski-Antigravity
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/google-notebooklm
+
+User-agent: Google-NotebookLM
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/googleagent-mariner
+
+User-agent: GoogleAgent-Mariner
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/googleagent-urlcontext
+
+User-agent: GoogleAgent-URLContext
+Disallow: /
+
 # AI Data Scraper
-# https://darkvisitors.com/agents/gptbot
+# https://knownagents.com/agents/googleother
+
+User-agent: GoogleOther
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/googleother-image
+
+User-agent: GoogleOther-Image
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/googleother-video
+
+User-agent: GoogleOther-Video
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/govapienricher
+
+User-agent: GovAPIEnricher
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/gptbot
 
 User-agent: GPTBot
 Disallow: /
 
+# Intelligence Gatherer
+# https://knownagents.com/agents/grapeshotcrawler
+
+User-agent: GrapeshotCrawler
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/grok-bot
+
+User-agent: Grok Bot
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/grok-agent
+
+User-agent: grok-agent
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/grokbot
+
+User-agent: GrokBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/groovinaadsbot
+
+User-agent: GroovinaAdsbot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/growthxbot
+
+User-agent: GrowthXBot
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/haiku-searchbot
+
+User-agent: Haiku-SearchBot
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/haikubot
+
+User-agent: HaikuBot
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/harkbot
+
+User-agent: HarkBot
+Disallow: /
+
+# Automated Agent
+# https://knownagents.com/agents/headlesschrome
+
+User-agent: HeadlessChrome
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/helloworkjobpostingbot
+
+User-agent: HelloworkJobPostingBot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/henkbot
+
+User-agent: HenkBot
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/httrack
+
+User-agent: HTTrack
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/httrack-3-0
+
+User-agent: HTTrack 3.0
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/hubspot
+
+User-agent: HubSpot
+Disallow: /
+
 # AI Data Scraper
-# https://darkvisitors.com/agents/omgili
+# https://knownagents.com/agents/hunyuan
+
+User-agent: Hunyuan
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/ias-crawler
+
+User-agent: IAS crawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/ias-ie
+
+User-agent: ias-ie
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/iaskbot
+
+User-agent: iAskBot
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/iaskspider
+
+User-agent: iaskspider
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/icc-crawler
+
+User-agent: ICC-Crawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/idgit
+
+User-agent: IDG/IT
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/imagebot
+
+User-agent: ImageBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/imagesiftbot
+
+User-agent: ImagesiftBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/imagespider
+
+User-agent: imageSpider
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/incumbintbot
+
+User-agent: IncumbINTBot
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/indeedjobbot
+
+User-agent: IndeedJobBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/innguma
+
+User-agent: Innguma
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/instinct
+
+User-agent: Instinct
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/intentbeambot
+
+User-agent: IntentBeamBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/interactiveadvertisingbureau
+
+User-agent: InteractiveAdvertisingBureau
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/interviewos
+
+User-agent: InterviewOS
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/ioncrawl
+
+User-agent: IonCrawl
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/jugendschutzprogramm-crawler
+
+User-agent: Jugendschutzprogramm-Crawler
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/kagi-fetcher
+
+User-agent: kagi-fetcher
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/kangaroo-bot
+
+User-agent: Kangaroo Bot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/kargobot
+
+User-agent: KargoBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/kargobot-artemis-mobile
+
+User-agent: KargoBot-Artemis-Mobile
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/karlacrawler
+
+User-agent: KarlaCrawler
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/keenable-user
+
+User-agent: Keenable-User
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/keenablebot
+
+User-agent: KeenableBot
+Disallow: /
+
+# Automated Agent
+# https://knownagents.com/agents/kernel
+
+User-agent: Kernel
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/kernelsearchbot
+
+User-agent: KernelSearchBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/kimebot
+
+User-agent: KimeBot
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/kimi-agent
+
+User-agent: Kimi-Agent
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/kimi-searchbot
+
+User-agent: Kimi-SearchBot
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/kimi-user
+
+User-agent: Kimi-User
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/kimibot
+
+User-agent: KimiBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/kimicrawler
+
+User-agent: KimiCrawler
+Disallow: /
+
+# AI Coding Agent
+# https://knownagents.com/agents/kiro-server
+
+User-agent: KiroServer
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/klaviyo
+
+User-agent: Klaviyo
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/klaviyoaibot
+
+User-agent: KlaviyoAIBot
+Disallow: /
+
+# Automated Agent
+# https://knownagents.com/agents/known-agents-browser
+
+User-agent: Known Agents Browser
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/konturbot
+
+User-agent: Konturbot
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/krawlerbot
+
+User-agent: KrawlerBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/kstandbot
+
+User-agent: KStandBot
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/kunatocrawler
+
+User-agent: KunatoCrawler
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/laion-huggingface-processor
+
+User-agent: laion-huggingface-processor
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/lcc
+
+User-agent: LCC
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/leadfinderbot
+
+User-agent: LeadFinderBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/leadforge
+
+User-agent: LeadForge
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/leikibot
+
+User-agent: Leikibot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/lightspeedsystemscrawler
+
+User-agent: LightspeedSystemsCrawler
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/liner-user
+
+User-agent: Liner-User
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/linerbot
+
+User-agent: LinerBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/linkfluence
+
+User-agent: linkfluence
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/linkupbot
+
+User-agent: LinkupBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/linkwalker
+
+User-agent: LinkWalker
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/listsignalbot
+
+User-agent: ListSignalBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/macrobondbot
+
+User-agent: Macrobondbot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/magpie-crawler
+
+User-agent: magpie-crawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/mantisbot
+
+User-agent: Mantisbot
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/manus-user
+
+User-agent: Manus-User
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/mapthenetbot
+
+User-agent: MapTheNetBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/mcontextualbot
+
+User-agent: McontextualBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/mediaboardbot
+
+User-agent: mediaboardbot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/medialogiabot
+
+User-agent: MedialogiaBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/mediamonitoringbot
+
+User-agent: MediaMonitoringBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/mediapartners-google
+
+User-agent: Mediapartners-Google
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/mediatoolkitbot
+
+User-agent: Mediatoolkitbot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/mediavine-medatada-parser
+
+User-agent: Mediavine Medatada Parser
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/mediavinemetadataparser
+
+User-agent: MediavineMetadataParser
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/meta-externalads
+
+User-agent: meta-externalads
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/meta-externalagent
+
+User-agent: meta-externalagent
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/meta-externalfetcher
+
+User-agent: meta-externalfetcher
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/meta-webindexer
+
+User-agent: meta-webindexer
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/metainspector
+
+User-agent: MetaInspector
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/metajobbot
+
+User-agent: MetaJobBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/mgidbot
+
+User-agent: MgidBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/micro-crawl
+
+User-agent: micro-crawl
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/minimax-agent
+
+User-agent: MiniMaxAgent
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/missinglettr-bot
+
+User-agent: Missinglettr Bot
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/mistralai-index
+
+User-agent: MistralAI-Index
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/mistralai-training
+
+User-agent: MistralAI-Training
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/mistralai-user
+
+User-agent: MistralAI-User
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/mistralbot
+
+User-agent: MistralBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/mixrankbot
+
+User-agent: MixrankBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/moonshotbot
+
+User-agent: MoonshotBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/moonspider
+
+User-agent: MoonSpider
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/mozilla-tabstack
+
+User-agent: Mozilla-Tabstack
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/mrleadsbot
+
+User-agent: MRLeadsBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/muckrack
+
+User-agent: MuckRack
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/muse
+
+User-agent: Muse
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/nanointeractive
+
+User-agent: NanoInteractive
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/navubot
+
+User-agent: NavuBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/netcraft
+
+User-agent: Netcraft
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/netcraftsurveyagent
+
+User-agent: NetcraftSurveyAgent
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/netestate-imprint-crawler
+
+User-agent: netEstate Imprint Crawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/netestate-ne-crawler
+
+User-agent: netEstate NE Crawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/neticle-crawler
+
+User-agent: Neticle Crawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/netseer-crawler
+
+User-agent: NetSeer crawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/netvibes
+
+User-agent: Netvibes
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/neuwobot
+
+User-agent: NeuwoBot
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/newspaper
+
+User-agent: newspaper
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/newsroom-bi
+
+User-agent: NewsRoom.BI
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/noahbot
+
+User-agent: NoahBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/nostocrawlerbot
+
+User-agent: NostoCrawlerBot
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/novaact
+
+User-agent: NovaAct
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/nutch
+
+User-agent: Nutch
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/nyt-scraping
+
+User-agent: nyt_scraping
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/oai-adsbot
+
+User-agent: OAI-AdsBot
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/oai-searchbot
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/octensearchbot
+
+User-agent: OctenSearchBot
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/offline-explorer
+
+User-agent: Offline Explorer
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/omgili
 
 User-agent: omgili
 Disallow: /
 
+# Intelligence Gatherer
+# https://knownagents.com/agents/omvionleadlake
+
+User-agent: OmvionLeadLake
+Disallow: /
+
 # AI Search Crawler
-# https://darkvisitors.com/agents/perplexitybot
+# https://knownagents.com/agents/onirococrawler
+
+User-agent: OnirocoCrawler
+Disallow: /
+
+# AI Coding Agent
+# https://knownagents.com/agents/opencode
+
+User-agent: opencode
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/openindexspider
+
+User-agent: OpenindexSpider
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/osentix-crawler
+
+User-agent: osentix-crawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/outboundbuddy-enrichment
+
+User-agent: outboundbuddy-enrichment
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/outbrain
+
+User-agent: outbrain
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/owler
+
+User-agent: Owler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/page-preview-tool
+
+User-agent: page-preview-tool
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/pandalytics
+
+User-agent: Pandalytics
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/pangubot
+
+User-agent: PanguBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/panscient-com
+
+User-agent: panscient.com
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/parse-ly-scraper
+
+User-agent: parse.ly scraper
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/partneroptimizer-bot
+
+User-agent: PartnerOptimizer-bot
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/payhawk-invoice-fetching-agent
+
+User-agent: Payhawk Invoice Fetching Agent
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/peer39-crawler
+
+User-agent: peer39_crawler
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/perplexity-user
+
+User-agent: Perplexity-User
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/perplexitybot
 
 User-agent: PerplexityBot
 Disallow: /
 
 # AI Search Crawler
-# https://darkvisitors.com/agents/youbot
+# https://knownagents.com/agents/petalbot
+
+User-agent: PetalBot
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/phindbot
+
+User-agent: PhindBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/pipericbot
+
+User-agent: PipericBot
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/poggio-citations
+
+User-agent: Poggio-Citations
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/postgoobot
+
+User-agent: PostGooBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/postitleaddiscovery
+
+User-agent: PostitLeadDiscovery
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/potions
+
+User-agent: Potions
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/poweredbybot
+
+User-agent: PoweredByBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/productsup-iocrawler
+
+User-agent: productsup.io/crawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/prognostixonthinminer
+
+User-agent: PrognostiXonThinMiner
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/proratainc
+
+User-agent: ProRataInc
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/proximic
+
+User-agent: proximic
+Disallow: /
+
+# AI Coding Agent
+# https://knownagents.com/agents/qodercli
+
+User-agent: qodercli
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/qualifiedbot
+
+User-agent: QualifiedBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/quantcastbot
+
+User-agent: Quantcastbot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/quartr-crawler
+
+User-agent: Quartr Crawler
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/querit-searchbot
+
+User-agent: Querit-SearchBot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/queritbot
+
+User-agent: QueritBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/quuubot
+
+User-agent: QuuuBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/qwairy-bot
+
+User-agent: Qwairy-Bot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/qwarrybot
+
+User-agent: Qwarrybot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/qwenbot
+
+User-agent: QwenBot
+Disallow: /
+
+# AI Coding Agent
+# https://knownagents.com/agents/qwen-code
+
+User-agent: QwenCode
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/rankshiftfetcher
+
+User-agent: RankshiftFetcher
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/rankurbot
+
+User-agent: RankurBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/recraft-image-dataset
+
+User-agent: recraft-image-dataset
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/reflectionbot
+
+User-agent: Reflectionbot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/retrolistecom
+
+User-agent: RetroListeCOM
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/revops-nuvo-detector
+
+User-agent: revops-nuvo-detector
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/riverbot
+
+User-agent: RiverBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/salamandravlm
+
+User-agent: SalamandraVLM
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/salesviewerbot
+
+User-agent: SalesViewerBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/sbintuitionsbot
+
+User-agent: SBIntuitionsBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/scalinthbot
+
+User-agent: ScalinthBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/scoop-it
+
+User-agent: Scoop.it
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/scope3
+
+User-agent: Scope3
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/scrapingnytimes-com
+
+User-agent: scraping@nytimes.com
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/scrapy
+
+User-agent: Scrapy
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/scrybot
+
+User-agent: ScryBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/semantic-visions-analytica
+
+User-agent: semantic-visions-analytica
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/semantic-visions-infoseeker
+
+User-agent: semantic-visions-infoseeker
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/semanticvisionsbot
+
+User-agent: SemanticVisionsBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/senderbot
+
+User-agent: SenderBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/sentibot
+
+User-agent: SentiBot
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/serverhunterspider
+
+User-agent: ServerHunterSpider
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/shap-user
+
+User-agent: Shap-User
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/shapbot
+
+User-agent: ShapBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/sirdatabot
+
+User-agent: SirdataBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/sitestatsbot
+
+User-agent: SiteStatsBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/slickbot
+
+User-agent: SlickBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/slickstream
+
+User-agent: slickstream
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/smartologybot
+
+User-agent: SmartologyBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/smbsbot
+
+User-agent: SMBsBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/smtbot
+
+User-agent: SMTBot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/sofyabot
+
+User-agent: SofyaBot
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/somethinggbot
+
+User-agent: SomethinggBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/sottopop
+
+User-agent: Sottopop
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/spamcipherbot
+
+User-agent: SpamCipherBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/speridlabsresearchcrawler
+
+User-agent: SperidLabsResearchCrawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/speroll-adstxt-crawler
+
+User-agent: Speroll-AdsTxt-Crawler
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/spider
+
+User-agent: Spider
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/statistikaustria
+
+User-agent: StatistikAustria
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/statsdronebot
+
+User-agent: StatsDroneBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/stormintelcrawler
+
+User-agent: StormIntelCrawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/stripebot
+
+User-agent: Stripebot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/taboola
+
+User-agent: Taboola
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/taboolabot
+
+User-agent: Taboolabot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/talarionfrontiercrawler
+
+User-agent: TalarionFrontierCrawler
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/talarionsearchbot
+
+User-agent: TalarionSearchBot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/tavilybot
+
+User-agent: TavilyBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/techspybot
+
+User-agent: TechSpyBot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/terra-cotta
+
+User-agent: Terra Cotta
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/terracotta
+
+User-agent: TerraCotta
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/thewebreport
+
+User-agent: TheWebReport
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/thinkbot
+
+User-agent: Thinkbot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/timpibot
+
+User-agent: Timpibot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/titanbot
+
+User-agent: TitanBot
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/tongyibot
+
+User-agent: TongyiBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/topicsearch-crawler
+
+User-agent: topicsearch-crawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/tphotobot
+
+User-agent: tphotobot
+Disallow: /
+
+# AI Coding Agent
+# https://knownagents.com/agents/trae
+
+User-agent: Trae
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/trendictionbot
+
+User-agent: trendictionbot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/trendsmapresolver
+
+User-agent: TrendsmapResolver
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/ttd-content
+
+User-agent: TTD-Content
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/turnitinbot
+
+User-agent: TurnitinBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/tweetmemebot
+
+User-agent: TweetmemeBot
+Disallow: /
+
+# AI Agent
+# https://knownagents.com/agents/twinagent
+
+User-agent: TwinAgent
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/twingly
+
+User-agent: Twingly
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/twingly-recon-sjostrom
+
+User-agent: Twingly Recon-Sjostrom
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/uipbot
+
+User-agent: uipbot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/um-fc
+
+User-agent: um-FC
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/um-ic
+
+User-agent: um-IC
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/um-ln
+
+User-agent: um-LN
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/upcontent
+
+User-agent: UpContent
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/upcontent-qa
+
+User-agent: UpContent-QA
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/upcontent-test
+
+User-agent: UpContent-Test
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/useai
+
+User-agent: UseAI
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/velenpublicwebcrawler
+
+User-agent: VelenPublicWebCrawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/verity
+
+User-agent: Verity
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/virustotal
+
+User-agent: virustotal
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/wappalyzerbot
+
+User-agent: WappalyzerBot
+Disallow: /
+
+# Scraper
+# https://knownagents.com/agents/web-image-collection-research
+
+User-agent: web-image-collection-research
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/weborama-fetcher
+
+User-agent: weborama-fetcher
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/webspidermount
+
+User-agent: webspidermount
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/webtrackrcrawler
+
+User-agent: WebTrackrCrawler
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/webzio
+
+User-agent: webzio
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/webzio-extended
+
+User-agent: webzio-extended
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/whitecircletrustbot
+
+User-agent: WhiteCircleTrustBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/whynoipv6bot
+
+User-agent: WhyNoIPv6Bot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/wknd-bot
+
+User-agent: wknd-bot
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/wrtnbot
+
+User-agent: WRTNBot
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/xai-grok
+
+User-agent: xAI-Grok
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/xai-searchbot
+
+User-agent: xAI-SearchBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/yadirectfetcher
+
+User-agent: YaDirectFetcher
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/yahoo-ad-monitoring
+
+User-agent: Yahoo Ad monitoring
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/yahoo-japan
+
+User-agent: Yahoo Japan
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/yak
+
+User-agent: YaK
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/yandexadditional
+
+User-agent: YandexAdditional
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/yandexadditionalbot
+
+User-agent: YandexAdditionalBot
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/yepbot
+
+User-agent: YepBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/yext-inc
+
+User-agent: Yext Inc
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/yextbot
+
+User-agent: YextBot
+Disallow: /
+
+# AI Data Scraper
+# https://knownagents.com/agents/yibot
+
+User-agent: YiBot
+Disallow: /
+
+# AI Assistant
+# https://knownagents.com/agents/yiyanbot
+
+User-agent: YiyanBot
+Disallow: /
+
+# AI Data Provider
+# https://knownagents.com/agents/youbot
 
 User-agent: YouBot
+Disallow: /
+
+# AI Search Crawler
+# https://knownagents.com/agents/zanistabot
+
+User-agent: ZanistaBot
+Disallow: /
+
+# Undocumented AI Agent
+# https://knownagents.com/agents/zenphonybot
+
+User-agent: ZenphonyBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/zoominfobot
+
+User-agent: ZoominfoBot
+Disallow: /
+
+# Intelligence Gatherer
+# https://knownagents.com/agents/zvelo
+
+User-agent: Zvelo
 Disallow: /
