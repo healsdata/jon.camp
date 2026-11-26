@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{- $posts := where site.RegularPages "Section" "!=" "links" }}
-  {{- $recent := sort $posts ".Date" "desc" | first 5 }}
+  {{- $recent := sort $posts ".Lastmod" "desc" | first 5 }}
 
   <div class="homepage-feed">
     {{- range $recent }}
